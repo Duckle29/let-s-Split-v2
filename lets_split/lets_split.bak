@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:component
 LIBS:lets_split-cache
 EELAYER 25 0
 EELAYER END
@@ -722,36 +721,34 @@ Wire Wire Line
 	6400 1150 6400 1450
 Text GLabel 2600 4150 2    60   Input ~ 0
 data
-Text GLabel 6450 950  1    60   Input ~ 0
+Text GLabel 6500 900  1    55   Input ~ 0
 data
 $Comp
 L R R2
 U 1 1 57D4D4E2
-P 6300 950
-F 0 "R2" V 6380 950 50  0000 C CNN
-F 1 "R" V 6300 950 50  0000 C CNN
-F 2 "footprint:RESISTOR" V 6230 950 50  0001 C CNN
-F 3 "" H 6300 950 50  0000 C CNN
-	1    6300 950 
+P 6250 950
+F 0 "R2" V 6330 950 50  0000 C CNN
+F 1 "R" V 6250 950 50  0000 C CNN
+F 2 "footprint:RESISTOR" V 6180 950 50  0001 C CNN
+F 3 "" H 6250 950 50  0000 C CNN
+	1    6250 950 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6450 950  6500 1450
+	6500 900  6500 1450
 Wire Wire Line
-	6450 950  6900 950 
+	6400 950  6900 950 
 Wire Wire Line
 	6900 950  6900 1450
-Connection ~ 6900 950 
-Connection ~ 6450 950 
+Connection ~ 6500 950 
 Wire Wire Line
 	6800 1450 6800 1350
 Wire Wire Line
 	6800 1350 6600 1350
 Wire Wire Line
-	6600 1350 6600 1450
-Connection ~ 6800 1350
+	6600 900  6600 1450
 Connection ~ 6600 1350
-Text GLabel 6600 1350 1    60   Input ~ 0
+Text GLabel 6600 900  1    55   Input ~ 0
 xtradata
 $Comp
 L TEST_1P W2
@@ -793,12 +790,12 @@ $EndComp
 $Comp
 L VCC #PWR05
 U 1 1 57D5288F
-P 6150 950
-F 0 "#PWR05" H 6150 800 50  0001 C CNN
-F 1 "VCC" H 6150 1100 50  0000 C CNN
-F 2 "" H 6150 950 50  0000 C CNN
-F 3 "" H 6150 950 50  0000 C CNN
-	1    6150 950 
+P 6100 950
+F 0 "#PWR05" H 6100 800 50  0001 C CNN
+F 1 "VCC" H 6100 1100 50  0000 C CNN
+F 2 "" H 6100 950 50  0000 C CNN
+F 3 "" H 6100 950 50  0000 C CNN
+	1    6100 950 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -900,48 +897,4 @@ Text GLabel 5750 3500 0    60   Input ~ 0
 row2
 Text GLabel 5750 4000 0    60   Input ~ 0
 row3
-$Comp
-L HOLE U?
-U 1 1 57D4E136
-P 1950 6500
-F 0 "U?" H 1950 6500 60  0000 C CNN
-F 1 "HOLE" H 1950 6500 60  0000 C CNN
-F 2 "" H 1950 6500 60  0000 C CNN
-F 3 "" H 1950 6500 60  0000 C CNN
-	1    1950 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L HOLE U?
-U 1 1 57D4E261
-P 4050 6500
-F 0 "U?" H 4050 6500 60  0000 C CNN
-F 1 "HOLE" H 4050 6500 60  0000 C CNN
-F 2 "" H 4050 6500 60  0000 C CNN
-F 3 "" H 4050 6500 60  0000 C CNN
-	1    4050 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L HOLE U?
-U 1 1 57D4E2F6
-P 6050 5650
-F 0 "U?" H 6050 5650 60  0000 C CNN
-F 1 "HOLE" H 6050 5650 60  0000 C CNN
-F 2 "" H 6050 5650 60  0000 C CNN
-F 3 "" H 6050 5650 60  0000 C CNN
-	1    6050 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L HOLE U?
-U 1 1 57D4E38F
-P 8600 5650
-F 0 "U?" H 8600 5650 60  0000 C CNN
-F 1 "HOLE" H 8600 5650 60  0000 C CNN
-F 2 "" H 8600 5650 60  0000 C CNN
-F 3 "" H 8600 5650 60  0000 C CNN
-	1    8600 5650
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

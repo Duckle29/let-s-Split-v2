@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:component
 LIBS:lets_split-cache
 EELAYER 25 0
 EELAYER END
@@ -177,7 +176,15 @@ F 3 "" H 9450 2350 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5750 2500 9450 2500
+	5750 2500 6500 2500
+Wire Wire Line
+	6500 2500 7200 2500
+Wire Wire Line
+	7200 2500 7950 2500
+Wire Wire Line
+	7950 2500 8700 2500
+Wire Wire Line
+	8700 2500 9450 2500
 Connection ~ 8700 2500
 Connection ~ 7950 2500
 Connection ~ 7200 2500
@@ -315,7 +322,15 @@ F 3 "" H 9450 2850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5750 3000 9450 3000
+	5750 3000 6500 3000
+Wire Wire Line
+	6500 3000 7200 3000
+Wire Wire Line
+	7200 3000 7950 3000
+Wire Wire Line
+	7950 3000 8700 3000
+Wire Wire Line
+	8700 3000 9450 3000
 Connection ~ 8700 3000
 Connection ~ 7950 3000
 Connection ~ 7200 3000
@@ -453,7 +468,15 @@ F 3 "" H 9450 3350 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5750 3500 9450 3500
+	5750 3500 6500 3500
+Wire Wire Line
+	6500 3500 7200 3500
+Wire Wire Line
+	7200 3500 7950 3500
+Wire Wire Line
+	7950 3500 8700 3500
+Wire Wire Line
+	8700 3500 9450 3500
 Connection ~ 8700 3500
 Connection ~ 7950 3500
 Connection ~ 7200 3500
@@ -591,33 +614,65 @@ F 3 "" H 9450 3850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5750 4000 9450 4000
+	5750 4000 6500 4000
+Wire Wire Line
+	6500 4000 7200 4000
+Wire Wire Line
+	7200 4000 7950 4000
+Wire Wire Line
+	7950 4000 8700 4000
+Wire Wire Line
+	8700 4000 9450 4000
 Connection ~ 8700 4000
 Connection ~ 7950 4000
 Connection ~ 7200 4000
 Connection ~ 6500 4000
 Wire Wire Line
-	5150 2200 5150 3700
+	5150 2200 5150 2700
+Wire Wire Line
+	5150 2700 5150 3200
+Wire Wire Line
+	5150 3200 5150 3700
 Connection ~ 5150 2700
 Connection ~ 5150 3200
 Wire Wire Line
-	5900 2200 5900 3700
+	5900 2200 5900 2700
+Wire Wire Line
+	5900 2700 5900 3200
+Wire Wire Line
+	5900 3200 5900 3700
 Connection ~ 5900 2700
 Connection ~ 5900 3200
 Wire Wire Line
-	6600 2200 6600 3700
+	6600 2200 6600 2700
+Wire Wire Line
+	6600 2700 6600 3200
+Wire Wire Line
+	6600 3200 6600 3700
 Connection ~ 6600 3200
 Connection ~ 6600 2700
 Wire Wire Line
-	7350 2200 7350 3700
+	7350 2200 7350 2700
+Wire Wire Line
+	7350 2700 7350 3200
+Wire Wire Line
+	7350 3200 7350 3700
 Connection ~ 7350 2700
 Connection ~ 7350 3200
 Wire Wire Line
-	8100 2200 8100 3700
+	8100 2200 8100 2700
+Wire Wire Line
+	8100 2700 8100 3200
+Wire Wire Line
+	8100 3200 8100 3700
 Connection ~ 8100 3200
 Connection ~ 8100 2700
 Wire Wire Line
-	8850 2200 8850 3700
+	8850 2200 8850 2700
+Wire Wire Line
+	8850 2700 8850 3200
+Wire Wire Line
+	8850 3200 8850 3700
 Connection ~ 8850 2700
 Connection ~ 8850 3200
 $Comp
@@ -722,36 +777,40 @@ Wire Wire Line
 	6400 1150 6400 1450
 Text GLabel 2600 4150 2    60   Input ~ 0
 data
-Text GLabel 6450 950  1    60   Input ~ 0
+Text GLabel 6500 900  1    55   Input ~ 0
 data
 $Comp
 L R R2
 U 1 1 57D4D4E2
-P 6300 950
-F 0 "R2" V 6380 950 50  0000 C CNN
-F 1 "R" V 6300 950 50  0000 C CNN
-F 2 "footprint:RESISTOR" V 6230 950 50  0001 C CNN
-F 3 "" H 6300 950 50  0000 C CNN
-	1    6300 950 
+P 6250 950
+F 0 "R2" V 6330 950 50  0000 C CNN
+F 1 "R" V 6250 950 50  0000 C CNN
+F 2 "footprint:RESISTOR" V 6180 950 50  0001 C CNN
+F 3 "" H 6250 950 50  0000 C CNN
+	1    6250 950 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6450 950  6500 1450
+	6500 900  6500 950 
 Wire Wire Line
-	6450 950  6900 950 
+	6500 950  6500 1450
+Wire Wire Line
+	6400 950  6500 950 
+Wire Wire Line
+	6500 950  6900 950 
 Wire Wire Line
 	6900 950  6900 1450
-Connection ~ 6900 950 
-Connection ~ 6450 950 
+Connection ~ 6500 950 
 Wire Wire Line
 	6800 1450 6800 1350
 Wire Wire Line
 	6800 1350 6600 1350
 Wire Wire Line
+	6600 900  6600 1350
+Wire Wire Line
 	6600 1350 6600 1450
-Connection ~ 6800 1350
 Connection ~ 6600 1350
-Text GLabel 6600 1350 1    60   Input ~ 0
+Text GLabel 6600 900  1    55   Input ~ 0
 xtradata
 $Comp
 L TEST_1P W2
@@ -766,56 +825,58 @@ F 3 "" H 8150 950 50  0000 C CNN
 $EndComp
 Text GLabel 7950 950  0    60   Input ~ 0
 xtradata
-Text GLabel 4200 900  0    60   Input ~ 0
+Text GLabel 3625 3550 2    60   Input ~ 0
 xtradata
 $Comp
 L TEST W1
 U 1 1 57D52188
-P 4400 900
-F 0 "W1" H 4400 960 50  0000 C CNN
-F 1 "TEST" H 4400 830 50  0000 C CNN
-F 2 "prettylib:JUMPER_SMD_2DUB" H 4400 900 50  0001 C CNN
-F 3 "" H 4400 900 50  0000 C CNN
-	1    4400 900 
-	1    0    0    -1  
+P 3425 3550
+F 0 "W1" H 3425 3610 50  0000 C CNN
+F 1 "TEST" H 3425 3480 50  0000 C CNN
+F 2 "prettylib:JUMPER_SMD_2DUB" H 3425 3550 50  0001 C CNN
+F 3 "" H 3425 3550 50  0000 C CNN
+	1    3425 3550
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R1
 U 1 1 57D527EC
-P 4600 750
-F 0 "R1" V 4680 750 50  0000 C CNN
-F 1 "R" V 4600 750 50  0000 C CNN
-F 2 "footprint:RESISTOR" V 4530 750 50  0001 C CNN
-F 3 "" H 4600 750 50  0000 C CNN
-	1    4600 750 
+P 3175 3350
+F 0 "R1" V 3255 3350 50  0000 C CNN
+F 1 "R" V 3175 3350 50  0000 C CNN
+F 2 "footprint:RESISTOR" V 3105 3350 50  0001 C CNN
+F 3 "" H 3175 3350 50  0000 C CNN
+	1    3175 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR05
 U 1 1 57D5288F
-P 6150 950
-F 0 "#PWR05" H 6150 800 50  0001 C CNN
-F 1 "VCC" H 6150 1100 50  0000 C CNN
-F 2 "" H 6150 950 50  0000 C CNN
-F 3 "" H 6150 950 50  0000 C CNN
-	1    6150 950 
+P 6100 950
+F 0 "#PWR05" H 6100 800 50  0001 C CNN
+F 1 "VCC" H 6100 1100 50  0000 C CNN
+F 2 "" H 6100 950 50  0000 C CNN
+F 3 "" H 6100 950 50  0000 C CNN
+	1    6100 950 
 	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR06
 U 1 1 57D52913
-P 4600 600
-F 0 "#PWR06" H 4600 450 50  0001 C CNN
-F 1 "VCC" H 4600 750 50  0000 C CNN
-F 2 "" H 4600 600 50  0000 C CNN
-F 3 "" H 4600 600 50  0000 C CNN
-	1    4600 600 
+P 3175 3200
+F 0 "#PWR06" H 3175 3050 50  0001 C CNN
+F 1 "VCC" H 3175 3350 50  0000 C CNN
+F 2 "" H 3175 3200 50  0000 C CNN
+F 3 "" H 3175 3200 50  0000 C CNN
+	1    3175 3200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4600 900  4600 4050
+	3175 3500 3175 3550
 Wire Wire Line
-	4600 4050 2600 4050
+	3175 3550 3175 4050
+Wire Wire Line
+	3175 4050 2600 4050
 Text GLabel 2600 2750 2    60   Input ~ 0
 col0
 Text GLabel 2600 2850 2    60   Input ~ 0
@@ -900,48 +961,7 @@ Text GLabel 5750 3500 0    60   Input ~ 0
 row2
 Text GLabel 5750 4000 0    60   Input ~ 0
 row3
-$Comp
-L HOLE U2
-U 1 1 57D4E136
-P 1950 6500
-F 0 "U2" H 1950 6500 60  0000 C CNN
-F 1 "HOLE" H 1950 6500 60  0000 C CNN
-F 2 "prettylib:HOLE" H 1950 6500 60  0001 C CNN
-F 3 "" H 1950 6500 60  0000 C CNN
-	1    1950 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L HOLE U3
-U 1 1 57D4E261
-P 4050 6500
-F 0 "U3" H 4050 6500 60  0000 C CNN
-F 1 "HOLE" H 4050 6500 60  0000 C CNN
-F 2 "prettylib:HOLE" H 4050 6500 60  0001 C CNN
-F 3 "" H 4050 6500 60  0000 C CNN
-	1    4050 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L HOLE U4
-U 1 1 57D4E2F6
-P 6050 5650
-F 0 "U4" H 6050 5650 60  0000 C CNN
-F 1 "HOLE" H 6050 5650 60  0000 C CNN
-F 2 "prettylib:HOLE" H 6050 5650 60  0001 C CNN
-F 3 "" H 6050 5650 60  0000 C CNN
-	1    6050 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L HOLE U5
-U 1 1 57D4E38F
-P 8600 5650
-F 0 "U5" H 8600 5650 60  0000 C CNN
-F 1 "HOLE" H 8600 5650 60  0000 C CNN
-F 2 "prettylib:HOLE" H 8600 5650 60  0001 C CNN
-F 3 "" H 8600 5650 60  0000 C CNN
-	1    8600 5650
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	3225 3550 3175 3550
+Connection ~ 3175 3550
 $EndSCHEMATC
