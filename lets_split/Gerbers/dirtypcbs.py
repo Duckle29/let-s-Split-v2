@@ -4,6 +4,7 @@ from os import getcwd
 from os.path import isfile
 from os.path import splitext
 from os import rename
+from sys import exit
 
 import zipfile
 
@@ -12,10 +13,10 @@ import re
 kicad_extensions = {
     'top_silk' : '-F.SilkS.gbr', 
     'top_mask' : '-F.Mask.gbr', 
-    'top_cop' : '-Top.gbr',
+    'top_cop' : '-F.Cu.gbr',
     'in_cop1' : '-In1.Cu.gbr',
     'in_cop2' : '-In2.Cu.gbr',
-    'bot_cop' : '-Bottom.gbr', 
+    'bot_cop' : '-B.Cu.gbr', 
     'bot_mask' : '-B.Mask.gbr', 
     'bot_silk' : '-B.SilkS.gbr',
     'outline' : '-Edge.Cuts.gbr',
@@ -40,7 +41,8 @@ filenames = next(walk(getcwd()))[2]
 files_to_zip = []
 sample_file = ""
 base_name = ""
-undo_rename = True
+
+print("Files found are: {}".format(filenames))
 
 for file in filenames:
     filename, extension = splitext(file)
@@ -49,11 +51,20 @@ for file in filenames:
         base_name = re.search(r'(.+)(?=-)', file).group(0)
         break
 
+if not base_name:
+    exit("No gerbers found")
+
+print("\nBasename found: {}\n".format(base_name))
+
 for ext in kicad_extensions:
+    print("\nLooking for : {}".format(base_name + kicad_extensions[ext]))
     if isfile(base_name + kicad_extensions[ext]):
         rename(base_name + kicad_extensions[ext], base_name + desired_extensions[ext])
         files_to_zip.append(base_name + desired_extensions[ext])
+        print("Found adding renaming and adding to zip")
         
+print("\nFiles to be zipped: {}".format(files_to_zip))
+
 zf = zipfile.ZipFile('{}-{}.zip'.format(base_name, pcb_house), mode='w')
 
 try:
@@ -61,9 +72,5 @@ try:
         zf.write(file)
 finally:
     zf.close()
-
-if undo_rename:
-    for ext in kicad_extensions:
-        rename(base_name + desired_extensions[ext], base_name + kicad_extensions[ext])
 
 print("done")
