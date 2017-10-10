@@ -1,4 +1,4 @@
-update=9/9/2016 10:57:18 PM
+update=10-10-2017 06:58:46
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=component
+LibName30=D:/OneDrive/Til NAS/Projekter/KiCAD/kicad-libraries/8Bit-MCU
