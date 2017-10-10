@@ -4,6 +4,7 @@ from os import getcwd
 from os.path import isfile
 from os.path import splitext
 from os import rename
+from os import remove
 from sys import exit
 
 import zipfile
@@ -41,6 +42,7 @@ filenames = next(walk(getcwd()))[2]
 files_to_zip = []
 sample_file = ""
 base_name = ""
+remove_files = True # Set to true to remove individual gerbers and just leave the zip
 
 print("Files found are: {}".format(filenames))
 
@@ -72,5 +74,9 @@ try:
         zf.write(file)
 finally:
     zf.close()
+    
+if remove_files:
+    for file in files_to_zip:
+        remove(file)    
 
 print("done")
