@@ -600,19 +600,19 @@ Text GLabel 2350 2675 2    55   Input ~ 0
 col1
 Text GLabel 2350 2775 2    55   Input ~ 0
 col2
-Text GLabel 2350 2875 2    55   Input ~ 0
-col3
-Text GLabel 2350 2975 2    55   Input ~ 0
-col4
 Text GLabel 2350 3075 2    55   Input ~ 0
+col3
+Text GLabel 2350 2875 2    55   Input ~ 0
+col4
+Text GLabel 2350 2975 2    55   Input ~ 0
 col5
 Text GLabel 2350 2575 2    55   Input ~ 0
 row3
 Text GLabel 2350 2475 2    55   Input ~ 0
 row2
-Text GLabel 2350 2275 2    55   Input ~ 0
+Text GLabel 2350 3275 2    55   Input ~ 0
 row1
-Text GLabel 2350 2175 2    55   Input ~ 0
+Text GLabel 2350 3175 2    55   Input ~ 0
 row0
 $Comp
 L VCC #PWR03
@@ -885,4 +885,75 @@ Wire Wire Line
 	6325 1475 6375 1475
 Wire Wire Line
 	5850 1325 5850 1375
+$Comp
+L CONN_01X04 P1
+U 1 1 59DD2CD9
+P 1775 4975
+F 0 "P1" H 1775 5225 50  0000 C CNN
+F 1 "USB-rewire" V 1875 4975 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.00mm" H 1775 4975 50  0001 C CNN
+F 3 "" H 1775 4975 50  0000 C CNN
+	1    1775 4975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2225 4025 2275 4025
+Wire Wire Line
+	2275 4025 2275 4550
+Wire Wire Line
+	2275 4550 2275 4600
+Wire Wire Line
+	1925 4550 2025 4550
+Wire Wire Line
+	2025 4550 2275 4550
+Wire Wire Line
+	2025 4550 2025 4425
+Connection ~ 2025 4550
+$Comp
+L GND #PWR06
+U 1 1 59DD4C5E
+P 2275 4600
+F 0 "#PWR06" H 2275 4350 50  0001 C CNN
+F 1 "GND" H 2275 4450 50  0000 C CNN
+F 2 "" H 2275 4600 50  0000 C CNN
+F 3 "" H 2275 4600 50  0000 C CNN
+	1    2275 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2275 4550
+$Comp
+L USB_OTG P2
+U 1 1 59DD5ACB
+P 1825 4125
+F 0 "P2" H 2150 4000 50  0000 C CNN
+F 1 "USB_OTG" H 1825 4325 50  0000 C CNN
+F 2 "Connectors:USB-Mini-B-SMD" V 1775 4025 50  0001 C CNN
+F 3 "" V 1775 4025 50  0000 C CNN
+	1    1825 4125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1625 4425 1625 4775
+Wire Wire Line
+	1925 4775 1925 4550
+Text Label 1725 4750 1    60   ~ 0
+D-
+Text Label 1825 4750 1    60   ~ 0
+D+
+Wire Wire Line
+	1725 4500 1725 4775
+Wire Wire Line
+	1725 4500 1825 4500
+Wire Wire Line
+	1825 4500 1825 4425
+Wire Wire Line
+	1825 4550 1825 4775
+Wire Wire Line
+	1825 4550 1775 4550
+Wire Wire Line
+	1775 4550 1775 4450
+Wire Wire Line
+	1775 4450 1725 4450
+Wire Wire Line
+	1725 4450 1725 4425
 $EndSCHEMATC
