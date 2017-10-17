@@ -962,12 +962,12 @@ Wire Wire Line
 Wire Wire Line
 	2350 2275 3050 2275
 $Comp
-L Jumper_NC_Dual JP?
+L Jumper_NC_Dual JP2
 U 1 1 59E6A06B
 P 3600 2175
-F 0 "JP?" V 3646 2277 50  0000 L CNN
+F 0 "JP2" V 3646 2277 50  0000 L CNN
 F 1 "DIN-selector" V 3555 2277 50  0000 L CNN
-F 2 "" H 3600 2175 50  0001 C CNN
+F 2 "Jumpers:Solder-jumper-12NC-23NO" H 3600 2175 50  0001 C CNN
 F 3 "" H 3600 2175 50  0001 C CNN
 	1    3600 2175
 	0    -1   -1   0   
