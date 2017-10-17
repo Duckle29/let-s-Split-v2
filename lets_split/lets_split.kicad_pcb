@@ -58,7 +58,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010f0_80000001)
+      (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
@@ -83,7 +83,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory Gerbers/))
+      (outputdirectory gerbers/))
   )
 
   (net 0 "")
