@@ -1,12 +1,8 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:power
 LIBS:device
-LIBS:transistors
-LIBS:conn
 LIBS:linear
 LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
@@ -21,16 +17,14 @@ LIBS:audio
 LIBS:interface
 LIBS:digital-audio
 LIBS:philips
-LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:valves
 LIBS:8Bit-MCU
 LIBS:lets_split-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -50,7 +44,7 @@ U 1 1 57D441DE
 P 5450 2200
 F 0 "SW1" H 5600 2310 50  0000 C CNN
 F 1 "SW_PUSH" H 5450 2120 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 5450 2200 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 5450 2200 50  0001 C CNN
 F 3 "" H 5450 2200 50  0000 C CNN
 	1    5450 2200
 	1    0    0    -1  
@@ -72,7 +66,7 @@ U 1 1 57D44302
 P 6200 2200
 F 0 "SW2" H 6350 2310 50  0000 C CNN
 F 1 "SW_PUSH" H 6200 2120 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 6200 2200 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 6200 2200 50  0001 C CNN
 F 3 "" H 6200 2200 50  0000 C CNN
 	1    6200 2200
 	1    0    0    -1  
@@ -94,7 +88,7 @@ U 1 1 57D444D2
 P 6900 2200
 F 0 "SW3" H 7050 2310 50  0000 C CNN
 F 1 "SW_PUSH" H 6900 2120 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 6900 2200 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 6900 2200 50  0001 C CNN
 F 3 "" H 6900 2200 50  0000 C CNN
 	1    6900 2200
 	1    0    0    -1  
@@ -116,7 +110,7 @@ U 1 1 57D444DE
 P 7650 2200
 F 0 "SW4" H 7800 2310 50  0000 C CNN
 F 1 "SW_PUSH" H 7650 2120 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7650 2200 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 7650 2200 50  0001 C CNN
 F 3 "" H 7650 2200 50  0000 C CNN
 	1    7650 2200
 	1    0    0    -1  
@@ -138,7 +132,7 @@ U 1 1 57D4466E
 P 8400 2200
 F 0 "SW5" H 8550 2310 50  0000 C CNN
 F 1 "SW_PUSH" H 8400 2120 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 8400 2200 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 8400 2200 50  0001 C CNN
 F 3 "" H 8400 2200 50  0000 C CNN
 	1    8400 2200
 	1    0    0    -1  
@@ -160,7 +154,7 @@ U 1 1 57D4467A
 P 9150 2200
 F 0 "SW6" H 9300 2310 50  0000 C CNN
 F 1 "SW_PUSH" H 9150 2120 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 9150 2200 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 9150 2200 50  0001 C CNN
 F 3 "" H 9150 2200 50  0000 C CNN
 	1    9150 2200
 	1    0    0    -1  
@@ -182,7 +176,7 @@ U 1 1 57D45779
 P 5450 2700
 F 0 "SW7" H 5600 2810 50  0000 C CNN
 F 1 "SW_PUSH" H 5450 2620 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 5450 2700 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 5450 2700 50  0001 C CNN
 F 3 "" H 5450 2700 50  0000 C CNN
 	1    5450 2700
 	1    0    0    -1  
@@ -204,7 +198,7 @@ U 1 1 57D45785
 P 6200 2700
 F 0 "SW8" H 6350 2810 50  0000 C CNN
 F 1 "SW_PUSH" H 6200 2620 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 6200 2700 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 6200 2700 50  0001 C CNN
 F 3 "" H 6200 2700 50  0000 C CNN
 	1    6200 2700
 	1    0    0    -1  
@@ -226,7 +220,7 @@ U 1 1 57D45791
 P 6900 2700
 F 0 "SW9" H 7050 2810 50  0000 C CNN
 F 1 "SW_PUSH" H 6900 2620 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 6900 2700 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 6900 2700 50  0001 C CNN
 F 3 "" H 6900 2700 50  0000 C CNN
 	1    6900 2700
 	1    0    0    -1  
@@ -248,7 +242,7 @@ U 1 1 57D4579D
 P 7650 2700
 F 0 "SW10" H 7800 2810 50  0000 C CNN
 F 1 "SW_PUSH" H 7650 2620 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7650 2700 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 7650 2700 50  0001 C CNN
 F 3 "" H 7650 2700 50  0000 C CNN
 	1    7650 2700
 	1    0    0    -1  
@@ -270,7 +264,7 @@ U 1 1 57D457A9
 P 8400 2700
 F 0 "SW11" H 8550 2810 50  0000 C CNN
 F 1 "SW_PUSH" H 8400 2620 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 8400 2700 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 8400 2700 50  0001 C CNN
 F 3 "" H 8400 2700 50  0000 C CNN
 	1    8400 2700
 	1    0    0    -1  
@@ -292,7 +286,7 @@ U 1 1 57D457B5
 P 9150 2700
 F 0 "SW12" H 9300 2810 50  0000 C CNN
 F 1 "SW_PUSH" H 9150 2620 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 9150 2700 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 9150 2700 50  0001 C CNN
 F 3 "" H 9150 2700 50  0000 C CNN
 	1    9150 2700
 	1    0    0    -1  
@@ -314,7 +308,7 @@ U 1 1 57D45C1A
 P 5450 3200
 F 0 "SW13" H 5600 3310 50  0000 C CNN
 F 1 "SW_PUSH" H 5450 3120 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 5450 3200 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 5450 3200 50  0001 C CNN
 F 3 "" H 5450 3200 50  0000 C CNN
 	1    5450 3200
 	1    0    0    -1  
@@ -336,7 +330,7 @@ U 1 1 57D45C26
 P 6200 3200
 F 0 "SW14" H 6350 3310 50  0000 C CNN
 F 1 "SW_PUSH" H 6200 3120 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 6200 3200 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 6200 3200 50  0001 C CNN
 F 3 "" H 6200 3200 50  0000 C CNN
 	1    6200 3200
 	1    0    0    -1  
@@ -358,7 +352,7 @@ U 1 1 57D45C32
 P 6900 3200
 F 0 "SW15" H 7050 3310 50  0000 C CNN
 F 1 "SW_PUSH" H 6900 3120 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 6900 3200 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 6900 3200 50  0001 C CNN
 F 3 "" H 6900 3200 50  0000 C CNN
 	1    6900 3200
 	1    0    0    -1  
@@ -380,7 +374,7 @@ U 1 1 57D45C3E
 P 7650 3200
 F 0 "SW16" H 7800 3310 50  0000 C CNN
 F 1 "SW_PUSH" H 7650 3120 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7650 3200 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 7650 3200 50  0001 C CNN
 F 3 "" H 7650 3200 50  0000 C CNN
 	1    7650 3200
 	1    0    0    -1  
@@ -402,7 +396,7 @@ U 1 1 57D45C4A
 P 8400 3200
 F 0 "SW17" H 8550 3310 50  0000 C CNN
 F 1 "SW_PUSH" H 8400 3120 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 8400 3200 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 8400 3200 50  0001 C CNN
 F 3 "" H 8400 3200 50  0000 C CNN
 	1    8400 3200
 	1    0    0    -1  
@@ -424,7 +418,7 @@ U 1 1 57D45C56
 P 9150 3200
 F 0 "SW18" H 9300 3310 50  0000 C CNN
 F 1 "SW_PUSH" H 9150 3120 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 9150 3200 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 9150 3200 50  0001 C CNN
 F 3 "" H 9150 3200 50  0000 C CNN
 	1    9150 3200
 	1    0    0    -1  
@@ -446,7 +440,7 @@ U 1 1 57D45C67
 P 5450 3700
 F 0 "SW19" H 5600 3810 50  0000 C CNN
 F 1 "SW_PUSH" H 5450 3620 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 5450 3700 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 5450 3700 50  0001 C CNN
 F 3 "" H 5450 3700 50  0000 C CNN
 	1    5450 3700
 	1    0    0    -1  
@@ -468,7 +462,7 @@ U 1 1 57D45C73
 P 6200 3700
 F 0 "SW20" H 6350 3810 50  0000 C CNN
 F 1 "SW_PUSH" H 6200 3620 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 6200 3700 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 6200 3700 50  0001 C CNN
 F 3 "" H 6200 3700 50  0000 C CNN
 	1    6200 3700
 	1    0    0    -1  
@@ -490,7 +484,7 @@ U 1 1 57D45C7F
 P 6900 3700
 F 0 "SW21" H 7050 3810 50  0000 C CNN
 F 1 "SW_PUSH" H 6900 3620 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 6900 3700 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 6900 3700 50  0001 C CNN
 F 3 "" H 6900 3700 50  0000 C CNN
 	1    6900 3700
 	1    0    0    -1  
@@ -512,7 +506,7 @@ U 1 1 57D45C8B
 P 7650 3700
 F 0 "SW22" H 7800 3810 50  0000 C CNN
 F 1 "SW_PUSH" H 7650 3620 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7650 3700 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 7650 3700 50  0001 C CNN
 F 3 "" H 7650 3700 50  0000 C CNN
 	1    7650 3700
 	1    0    0    -1  
@@ -534,7 +528,7 @@ U 1 1 57D45C97
 P 8400 3700
 F 0 "SW23" H 8550 3810 50  0000 C CNN
 F 1 "SW_PUSH" H 8400 3620 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 8400 3700 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 8400 3700 50  0001 C CNN
 F 3 "" H 8400 3700 50  0000 C CNN
 	1    8400 3700
 	1    0    0    -1  
@@ -556,7 +550,7 @@ U 1 1 57D45CA3
 P 9150 3700
 F 0 "SW24" H 9300 3810 50  0000 C CNN
 F 1 "SW_PUSH" H 9150 3620 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 9150 3700 50  0001 C CNN
+F 2 "CherryMX:Kailh-socket-mirrorable" H 9150 3700 50  0001 C CNN
 F 3 "" H 9150 3700 50  0000 C CNN
 	1    9150 3700
 	1    0    0    -1  
@@ -596,23 +590,23 @@ F 3 "" H 6325 1525 50  0000 C CNN
 $EndComp
 Text GLabel 2350 3475 2    55   Input ~ 0
 col0
-Text GLabel 2350 2675 2    55   Input ~ 0
+Text GLabel 2350 3175 2    55   Input ~ 0
 col1
-Text GLabel 2350 2775 2    55   Input ~ 0
+Text GLabel 2350 2275 2    55   Input ~ 0
 col2
-Text GLabel 2350 3075 2    55   Input ~ 0
-col3
 Text GLabel 2350 2875 2    55   Input ~ 0
+col3
+Text GLabel 2350 3075 2    55   Input ~ 0
 col4
-Text GLabel 2350 2975 2    55   Input ~ 0
+Text GLabel 2350 2775 2    55   Input ~ 0
 col5
 Text GLabel 2350 2575 2    55   Input ~ 0
 row3
 Text GLabel 2350 2475 2    55   Input ~ 0
 row2
-Text GLabel 2350 3275 2    55   Input ~ 0
+Text GLabel 2350 2675 2    55   Input ~ 0
 row1
-Text GLabel 2350 3175 2    55   Input ~ 0
+Text GLabel 2350 2975 2    55   Input ~ 0
 row0
 $Comp
 L VCC #PWR03

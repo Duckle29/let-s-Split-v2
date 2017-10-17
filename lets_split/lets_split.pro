@@ -1,4 +1,4 @@
-update=10-10-2017 06:58:46
+update=Tue 17 Oct 2017 11:54:18 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,14 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=D:/OneDrive/Til NAS/Projekter/KiCAD/kicad-libraries/8Bit-MCU
+LibName31=/home/mikkel/OneDrive/Til NAS/Projekter/KiCAD/kicad-libraries/8Bit-MCU
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
