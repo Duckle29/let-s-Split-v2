@@ -599,7 +599,7 @@ Text GLabel 2350 3475 2    55   Input ~ 0
 col0
 Text GLabel 2350 3175 2    55   Input ~ 0
 col1
-Text GLabel 2350 2275 2    55   Input ~ 0
+Text GLabel 2350 2375 2    55   Input ~ 0
 col2
 Text GLabel 2350 2875 2    55   Input ~ 0
 col3
@@ -919,21 +919,21 @@ F 3 "" H 6575 1225 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Conn_01x02 J?
+L Conn_01x02 J1
 U 1 1 59E67AC9
 P 3575 2675
-F 0 "J?" H 3655 2667 50  0000 L CNN
+F 0 "J1" H 3655 2667 50  0000 L CNN
 F 1 "Speaker" H 3655 2576 50  0000 L CNN
-F 2 "" H 3575 2675 50  0001 C CNN
+F 2 "Buzzers_Beepers:Buzzer_12x9.5RM7.6" H 3575 2675 50  0001 C CNN
 F 3 "" H 3575 2675 50  0001 C CNN
 	1    3575 2675
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR09
 U 1 1 59E67C6F
 P 3325 2825
-F 0 "#PWR?" H 3325 2575 50  0001 C CNN
+F 0 "#PWR09" H 3325 2575 50  0001 C CNN
 F 1 "GND" H 3325 2675 50  0000 C CNN
 F 2 "" H 3325 2825 50  0000 C CNN
 F 3 "" H 3325 2825 50  0000 C CNN
@@ -945,16 +945,14 @@ Wire Wire Line
 Wire Wire Line
 	3325 2775 3325 2825
 Wire Wire Line
-	2350 2375 3050 2375
-Wire Wire Line
 	3050 2675 3375 2675
 $Comp
-L R_Small R?
+L R_Small R3
 U 1 1 59E680B3
 P 3050 2525
-F 0 "R?" H 3080 2545 50  0000 L CNN
+F 0 "R3" H 3080 2545 50  0000 L CNN
 F 1 "150" H 3080 2485 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3050 2525 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3050 2525 50  0001 C CNN
 F 3 "" H 3050 2525 50  0000 C CNN
 	1    3050 2525
 	1    0    0    -1  
@@ -962,5 +960,7 @@ $EndComp
 Wire Wire Line
 	3050 2625 3050 2675
 Wire Wire Line
-	3050 2375 3050 2425
+	3050 2275 3050 2425
+Wire Wire Line
+	2350 2275 3050 2275
 $EndSCHEMATC

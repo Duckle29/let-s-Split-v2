@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "D:\\OneDrive\\Til NAS\\Projekter\\let-s-Split-v2\\lets_split\\lets_split.sch")
-    (date "17-10-2017 20:04:58")
+    (date "17-10-2017 20:26:40")
     (tool "Eeschema (2017-09-19 revision dddaa7e69)-makepkg")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -552,7 +552,7 @@
       (node (ref P2) (pin 2))
       (node (ref P1) (pin 3)))
     (net (code 11) (name "Net-(R3-Pad1)")
-      (node (ref U1) (pin 9))
+      (node (ref U1) (pin 8))
       (node (ref R3) (pin 1)))
     (net (code 12) (name "Net-(J1-Pad1)")
       (node (ref J1) (pin 1))
@@ -648,7 +648,7 @@
     (net (code 38) (name col2)
       (node (ref SW21) (pin 1))
       (node (ref SW15) (pin 1))
-      (node (ref U1) (pin 8))
+      (node (ref U1) (pin 9))
       (node (ref SW9) (pin 1))
       (node (ref SW3) (pin 1)))
     (net (code 39) (name "Net-(D6-Pad2)")
