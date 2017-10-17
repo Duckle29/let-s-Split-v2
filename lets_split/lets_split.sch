@@ -1,8 +1,13 @@
-EESchema Schematic File Version 3
+EESchema Schematic File Version 2
+LIBS:lets_split-rescue
 LIBS:power
 LIBS:device
+LIBS:transistors
+LIBS:conn
 LIBS:linear
 LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
@@ -17,11 +22,13 @@ LIBS:audio
 LIBS:interface
 LIBS:digital-audio
 LIBS:philips
+LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
+LIBS:valves
 LIBS:8Bit-MCU
 LIBS:lets_split-cache
 EELAYER 26 0
@@ -835,7 +842,7 @@ F 3 "" H 2275 4600 50  0000 C CNN
 $EndComp
 Connection ~ 2275 4550
 $Comp
-L USB_OTG P2
+L USB_OTG-RESCUE-lets_split P2
 U 1 1 59DD5ACB
 P 1825 4125
 F 0 "P2" H 2150 4000 50  0000 C CNN
