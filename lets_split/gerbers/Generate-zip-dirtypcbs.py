@@ -58,6 +58,10 @@ if not base_name:
 
 print("\nBasename found: {}\n".format(base_name))
 
+if isfile(base_name + ".zip"):
+    remove(base_name + ".zip")
+
+
 for ext in kicad_extensions:
     print("\nLooking for : {}".format(base_name + kicad_extensions[ext]))
     if isfile(base_name + kicad_extensions[ext]):
