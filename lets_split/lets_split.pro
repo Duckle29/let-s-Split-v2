@@ -1,4 +1,4 @@
-update=17-10-2017 14:37:10
+update=15-11-2017 15:28:55
 version=1
 last_client=kicad
 [pcbnew]
@@ -71,3 +71,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=D:/OneDrive/Til NAS/Projekter/KiCAD/kicad-libraries/8Bit-MCU
 LibName32=/home/mikkel/OneDrive/Til NAS/Projekter/KiCAD/kicad-libraries/8Bit-MCU
+LibName33=D:/OneDrive/Til NAS/Projekter/KiCAD/Third-party-libs/SeeedOPL/SeeedOPL-IC-2016
