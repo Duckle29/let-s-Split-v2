@@ -1,4 +1,4 @@
-update=16-11-2017 20:09:31
+update=16-11-2017 20:33:50
 version=1
 last_client=kicad
 [pcbnew]
@@ -39,7 +39,7 @@ ERC_TestSimilarLabels=1
 version=1
 LibDir=../../github/ErgoDox-master/ErgoDOX pcb/gerber;../../github/ErgoDox-master/ErgoDOX pcb
 [eeschema/libraries]
-LibName1=lets_split-rescue
+LibName1=lets_split_panel-rescue
 LibName2=power
 LibName3=device
 LibName4=transistors
@@ -69,8 +69,8 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=D:/OneDrive/Til NAS/Projekter/KiCAD/kicad-libraries/8Bit-MCU
-LibName32=/home/mikkel/OneDrive/Til NAS/Projekter/KiCAD/kicad-libraries/8Bit-MCU
-LibName33=D:/OneDrive/Til NAS/Projekter/KiCAD/Third-party-libs/SeeedOPL/SeeedOPL-IC-2016
-LibName34=D:/OneDrive/Til NAS/Projekter/KiCAD/kicad-libraries/CherryMX
-LibName35=D:/OneDrive/Til NAS/Projekter/KiCAD/kicad-libraries/electro-mechanical
+LibName31=D:/OneDrive/Til NAS/Projekter/KiCAD/Third-party-libs/SeeedOPL/SeeedOPL-IC-2016
+LibName32=D:/OneDrive/Til NAS/Projekter/KiCAD/kicad-libraries/electro-mechanical
+LibName33=D:/OneDrive/Til NAS/Projekter/let-s-Split-v2/lets_split/lets_split-rescue
+LibName34=lets_split_panel-cache
+LibName35=D:/OneDrive/Til NAS/Projekter/KiCAD/kicad-libraries/8Bit-MCU
