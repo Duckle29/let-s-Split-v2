@@ -334,25 +334,25 @@ F 3 "" H 7325 3400 50  0000 C CNN
 	1    7325 3400
 	1    0    0    -1  
 $EndComp
-Text GLabel 4200 6875 2    55   Input ~ 0
+Text Label 4275 6875 0    55   ~ 0
 col0
-Text GLabel 4200 6975 2    55   Input ~ 0
+Text Label 4275 6975 0    55   ~ 0
 col1
-Text GLabel 4200 6525 2    55   Input ~ 0
+Text Label 4275 6525 0    55   ~ 0
 col2
-Text GLabel 4200 5175 2    55   Input ~ 0
+Text Label 4275 5175 0    55   ~ 0
 col3
-Text GLabel 4200 6375 2    55   Input ~ 0
+Text Label 4275 6375 0    55   ~ 0
 col4
-Text GLabel 4200 6275 2    55   Input ~ 0
+Text Label 4275 6275 0    55   ~ 0
 col5
-Text GLabel 4200 7275 2    55   Input ~ 0
+Text Label 4275 7275 0    55   ~ 0
 row3
-Text GLabel 4200 5525 2    55   Input ~ 0
+Text Label 4275 5525 0    55   ~ 0
 row2
-Text GLabel 4200 7175 2    55   Input ~ 0
+Text Label 4275 7175 0    55   ~ 0
 row1
-Text GLabel 4200 7075 2    55   Input ~ 0
+Text Label 4275 7075 0    55   ~ 0
 row0
 $Comp
 L VCC #PWR03
@@ -376,25 +376,25 @@ F 3 "" H 2450 7375 50  0000 C CNN
 	1    2450 7375
 	1    0    0    -1  
 $EndComp
-Text GLabel 6150 4025 1    60   Input ~ 0
+Text Label 6150 4025 1    60   ~ 0
 col0
-Text GLabel 6900 4025 1    60   Input ~ 0
+Text Label 6900 4025 1    60   ~ 0
 col1
-Text GLabel 7600 4025 1    60   Input ~ 0
+Text Label 7600 4025 1    60   ~ 0
 col2
-Text GLabel 8350 4025 1    60   Input ~ 0
+Text Label 8350 4025 1    60   ~ 0
 col3
-Text GLabel 9100 4025 1    60   Input ~ 0
+Text Label 9100 4025 1    60   ~ 0
 col4
-Text GLabel 9850 4025 1    60   Input ~ 0
+Text Label 9850 4025 1    60   ~ 0
 col5
-Text GLabel 6750 4375 0    60   Input ~ 0
+Text Label 6750 4375 2    60   ~ 0
 row0
-Text GLabel 6750 4875 0    60   Input ~ 0
+Text Label 6750 4875 2    60   ~ 0
 row1
-Text GLabel 6750 5375 0    60   Input ~ 0
+Text Label 6750 5375 2    60   ~ 0
 row2
-Text GLabel 6750 5875 0    60   Input ~ 0
+Text Label 6750 5875 2    60   ~ 0
 row3
 $Comp
 L R_Small R2
@@ -440,13 +440,13 @@ F 3 "" H 3450 1175 50  0000 C CNN
 	1    3450 1175
 	1    0    0    -1  
 $EndComp
-Text GLabel 3650 2150 2    55   Output ~ 0
+Text Label 3650 2150 0    55   ~ 0
 SDA
-Text GLabel 3650 2250 2    55   Output ~ 0
+Text Label 3650 2250 0    55   ~ 0
 SCL/D3
-Text GLabel 7375 3150 0    55   Input ~ 0
+Text Label 7375 3150 2    55   ~ 0
 SCL/D3
-Text GLabel 7375 3050 0    55   Input ~ 0
+Text Label 7375 3050 2    55   ~ 0
 SDA
 $Comp
 L USB_OTG-RESCUE-lets_split P2
@@ -547,9 +547,9 @@ F 3 "" H 4550 6175 60  0000 C CNN
 	1    2850 5225
 	1    0    0    -1  
 $EndComp
-Text GLabel 4225 6775 2    55   Output ~ 0
+Text Label 4275 6775 0    55   ~ 0
 WD2812-in
-Text GLabel 3050 2775 0    55   Input ~ 0
+Text Label 3050 2775 2    55   ~ 0
 WD2812-in
 $Comp
 L CONN_01X03 P1
@@ -584,19 +584,19 @@ F 3 "" H 3875 2925 50  0000 C CNN
 	1    3875 2925
 	-1   0    0    -1  
 $EndComp
-Text GLabel 3875 2775 2    55   Output ~ 0
+Text Label 3875 2775 0    55   ~ 0
 SDA
-Text GLabel 3250 2150 0    55   Input ~ 0
+Text Label 3250 2150 2    55   ~ 0
 SDA
-Text GLabel 3250 2250 0    55   Input ~ 0
+Text Label 3250 2250 2    55   ~ 0
 SCL/D3
-Text GLabel 4250 5775 2    55   Output ~ 0
+Text Label 4275 5775 0    55   ~ 0
 SDA
-Text GLabel 4250 5675 2    55   Output ~ 0
+Text Label 4275 5675 0    55   ~ 0
 SCL/D3
-Text GLabel 4250 5425 2    60   Output ~ 0
+Text Label 4275 5425 0    60   ~ 0
 buzz
-Text GLabel 3175 3375 0    60   Input ~ 0
+Text Label 3175 3375 2    60   ~ 0
 buzz
 $Comp
 L Crystal Y1
@@ -604,7 +604,7 @@ U 1 1 5A0DCE60
 P 2525 6175
 F 0 "Y1" V 2475 6300 50  0000 L CNN
 F 1 "Crystal" V 2550 6325 50  0000 L CNN
-F 2 "SeeedOPL-Crystal Oscillator-2016:X2-SMD-3.2X1.5X0.55MM" H 2525 6175 50  0001 C CNN
+F 2 "SeeedOPL-Crystal Oscillator-2016:X2-SMD-5.0X3.2X1.3MM" H 2525 6175 50  0001 C CNN
 F 3 "" H 2525 6175 50  0001 C CNN
 	1    2525 6175
 	0    -1   1    0   
@@ -845,12 +845,6 @@ Wire Wire Line
 Wire Wire Line
 	3875 2775 3825 2775
 Wire Wire Line
-	4250 5675 4200 5675
-Wire Wire Line
-	4200 5775 4250 5775
-Wire Wire Line
-	4250 5425 4200 5425
-Wire Wire Line
 	2325 4875 2600 4875
 Connection ~ 2325 4775
 Wire Wire Line
@@ -974,7 +968,7 @@ D+
 Connection ~ 2500 4775
 Connection ~ 2500 4675
 Wire Wire Line
-	4200 6775 4225 6775
+	4200 6775 4275 6775
 $Comp
 L JUMPER JP2
 U 1 1 5A104048
@@ -1006,25 +1000,23 @@ F 3 "" H 5750 6950 50  0001 C CNN
 	1    5750 6950
 	1    0    0    -1  
 $EndComp
-Text GLabel 5550 7050 0    35   Output ~ 0
+Text Label 5500 7050 2    55   ~ 0
 ~RESET
-Text GLabel 5550 6850 0    55   Input ~ 0
+Text Label 5500 6850 2    55   ~ 0
 MISO
-Text GLabel 5550 6950 0    55   Output ~ 0
+Text Label 5500 6950 2    55   ~ 0
 SCK
-Text GLabel 6050 6950 2    55   Output ~ 0
+Text Label 6100 6950 0    55   ~ 0
 MOSI
-Text GLabel 1900 4975 1    35   Input ~ 0
+Text Label 1900 4975 1    35   ~ 0
 ~RESET
 Wire Wire Line
 	1900 4975 1900 5025
 Connection ~ 1900 5025
-Text GLabel 4200 4775 2    55   Input ~ 0
+Text Label 4275 4775 0    55   ~ 0
 MOSI
-Text GLabel 4200 4875 2    55   Output ~ 0
+Text Label 4275 4875 0    55   ~ 0
 MISO
-Text GLabel 4200 4675 2    55   Input ~ 0
-SCK
 Wire Wire Line
 	6050 7050 6100 7050
 Wire Wire Line
@@ -1421,4 +1413,46 @@ Wire Wire Line
 	10375 5575 10450 5575
 Wire Wire Line
 	9850 5575 9975 5575
+Text Label 4275 4675 0    60   ~ 0
+SCK
+Wire Wire Line
+	4275 6875 4200 6875
+Wire Wire Line
+	4200 6975 4275 6975
+Wire Wire Line
+	4200 7075 4275 7075
+Wire Wire Line
+	4200 7175 4275 7175
+Wire Wire Line
+	4200 7275 4275 7275
+Wire Wire Line
+	4275 6525 4200 6525
+Wire Wire Line
+	4200 6375 4275 6375
+Wire Wire Line
+	4275 6275 4200 6275
+Wire Wire Line
+	4200 4675 4275 4675
+Wire Wire Line
+	4275 4775 4200 4775
+Wire Wire Line
+	4200 4875 4275 4875
+Wire Wire Line
+	4200 5175 4275 5175
+Wire Wire Line
+	4200 5425 4275 5425
+Wire Wire Line
+	4275 5525 4200 5525
+Wire Wire Line
+	4200 5675 4275 5675
+Wire Wire Line
+	4275 5775 4200 5775
+Wire Wire Line
+	6100 6950 6050 6950
+Wire Wire Line
+	5500 6850 5550 6850
+Wire Wire Line
+	5550 6950 5500 6950
+Wire Wire Line
+	5500 7050 5550 7050
 $EndSCHEMATC
