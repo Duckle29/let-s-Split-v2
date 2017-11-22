@@ -1,39 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:lets_split_panel-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:SeeedOPL-IC-2016
-LIBS:electro-mechanical
-LIBS:lets_split-rescue
+EESchema Schematic File Version 4
 LIBS:lets_split_panel-cache
-LIBS:8Bit-MCU
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -49,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L VCC #PWR020
+L lets_split_panel-rescue:VCC-RESCUE-lets_split_panel #PWR020
 U 1 1 5A0E2920
 P 6875 2950
 F 0 "#PWR020" H 6875 2800 50  0001 C CNN
@@ -60,7 +26,7 @@ F 3 "" H 6875 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR021
+L lets_split_panel-rescue:GND-RESCUE-lets_split_panel #PWR021
 U 1 1 5A0E2926
 P 7350 3150
 F 0 "#PWR021" H 7350 2900 50  0001 C CNN
@@ -91,7 +57,7 @@ row1
 Text Label 4225 6825 0    55   ~ 0
 row0
 $Comp
-L VCC #PWR022
+L lets_split_panel-rescue:VCC-RESCUE-lets_split_panel #PWR022
 U 1 1 5A0E2936
 P 2350 4200
 F 0 "#PWR022" H 2350 4050 50  0001 C CNN
@@ -102,7 +68,7 @@ F 3 "" H 2350 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L lets_split_panel-rescue:GND-RESCUE-lets_split_panel #PWR023
 U 1 1 5A0E293C
 P 2475 7125
 F 0 "#PWR023" H 2475 6875 50  0001 C CNN
@@ -117,7 +83,7 @@ SCL/D3
 Text Label 7400 2800 2    55   ~ 0
 SDA
 $Comp
-L USB_OTG-RESCUE-lets_split P5
+L lets_split_panel-rescue:USB_OTG-RESCUE-lets_split-RESCUE-lets_split_panel P5
 U 1 1 5A0E295E
 P 1150 5525
 F 0 "P5" H 1475 5400 50  0000 C CNN
@@ -128,7 +94,7 @@ F 3 "" V 1100 5425 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Conn_01x03 P6
+L lets_split_panel-rescue:Conn_01x03-RESCUE-lets_split_panel P6
 U 1 1 5A0E2964
 P 3325 2525
 F 0 "P6" H 3325 2725 50  0000 C CNN
@@ -139,7 +105,7 @@ F 3 "" H 3325 2525 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR025
+L lets_split_panel-rescue:VCC-RESCUE-lets_split_panel #PWR025
 U 1 1 5A0E296A
 P 3075 2375
 F 0 "#PWR025" H 3075 2225 50  0001 C CNN
@@ -150,7 +116,7 @@ F 3 "" H 3075 2375 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR026
+L lets_split_panel-rescue:GND-RESCUE-lets_split_panel #PWR026
 U 1 1 5A0E2970
 P 3075 2675
 F 0 "#PWR026" H 3075 2425 50  0001 C CNN
@@ -161,7 +127,7 @@ F 3 "" H 3075 2675 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J5
+L lets_split_panel-rescue:Conn_01x02-RESCUE-lets_split_panel J5
 U 1 1 5A0E2976
 P 3650 3125
 F 0 "J5" H 3730 3117 50  0000 L CNN
@@ -172,7 +138,7 @@ F 3 "" H 3650 3125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L lets_split_panel-rescue:GND-RESCUE-lets_split_panel #PWR027
 U 1 1 5A0E297C
 P 3400 3275
 F 0 "#PWR027" H 3400 3025 50  0001 C CNN
@@ -183,7 +149,7 @@ F 3 "" H 3400 3275 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R10
+L lets_split_panel-rescue:R_Small-RESCUE-lets_split_panel R10
 U 1 1 5A0E2982
 P 3300 3125
 F 0 "R10" H 3330 3145 50  0000 L CNN
@@ -194,7 +160,7 @@ F 3 "" H 3300 3125 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_01x04 P8
+L lets_split_panel-rescue:Conn_01x04-RESCUE-lets_split_panel P8
 U 1 1 5A0E2988
 P 7600 3000
 F 0 "P8" H 7525 2500 50  0000 C CNN
@@ -205,9 +171,11 @@ F 3 "" H 7600 3000 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L ATMega32U4 U2
+L lets_split_panel-rescue:ATMega32U4-RESCUE-lets_split_panel U2
 U 1 1 5A0E298E
 P 2875 4975
+AR Path="/5A0E298E" Ref="U2"  Part="1" 
+AR Path="/5A0DF911/5A0E298E" Ref="U2"  Part="1" 
 F 0 "U2" H 3425 5912 60  0000 C CNN
 F 1 "ATMega32U4" H 3425 5806 60  0000 C CNN
 F 2 "SeeedOPL-IC-2016:QFN44G-0.5-7X7MM" H 4575 5925 60  0001 C CNN
@@ -219,40 +187,7 @@ Text Label 4250 6525 0    55   ~ 0
 WD2812-in
 Text Label 3075 2525 2    55   ~ 0
 WD2812-in
-$Comp
-L Conn_01x03 P7
-U 1 1 5A0E2996
-P 3650 2525
-F 0 "P7" H 3650 2725 50  0000 C CNN
-F 1 "WS2812>" V 3750 2525 50  0000 C CNN
-F 2 "Wirepads:SMD_PAD_1x03_Pitch2.54mm" H 3650 2525 50  0001 C CNN
-F 3 "" H 3650 2525 50  0000 C CNN
-	1    3650 2525
-	-1   0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR028
-U 1 1 5A0E299C
-P 3900 2375
-F 0 "#PWR028" H 3900 2225 50  0001 C CNN
-F 1 "VCC" H 3900 2525 50  0000 C CNN
-F 2 "" H 3900 2375 50  0000 C CNN
-F 3 "" H 3900 2375 50  0000 C CNN
-	1    3900 2375
-	-1   0    0    -1  
-$EndComp
-$Comp
-L GND #PWR029
-U 1 1 5A0E29A2
-P 3900 2675
-F 0 "#PWR029" H 3900 2425 50  0001 C CNN
-F 1 "GND" H 3900 2525 50  0000 C CNN
-F 2 "" H 3900 2675 50  0000 C CNN
-F 3 "" H 3900 2675 50  0000 C CNN
-	1    3900 2675
-	-1   0    0    -1  
-$EndComp
-Text Label 3900 2525 0    55   ~ 0
+Text Label 3925 2525 0    55   ~ 0
 SDA
 Text Label 4275 5525 0    55   ~ 0
 SDA
@@ -263,7 +198,7 @@ buzz
 Text Label 3200 3125 2    60   ~ 0
 buzz
 $Comp
-L Crystal Y2
+L lets_split_panel-rescue:Crystal-RESCUE-lets_split_panel Y2
 U 1 1 5A0E29AF
 P 2550 5925
 F 0 "Y2" V 2500 6050 50  0000 L CNN
@@ -274,7 +209,7 @@ F 3 "" H 2550 5925 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L R_Small R9
+L lets_split_panel-rescue:R_Small-RESCUE-lets_split_panel R9
 U 1 1 5A0E29B5
 P 2225 4650
 F 0 "R9" H 2255 4670 50  0000 L CNN
@@ -285,7 +220,7 @@ F 3 "" H 2225 4650 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VBUS #PWR030
+L lets_split_panel-rescue:VBUS-RESCUE-lets_split_panel #PWR030
 U 1 1 5A0E29BB
 P 2525 4200
 F 0 "#PWR030" H 2525 4050 50  0001 C CNN
@@ -296,7 +231,7 @@ F 3 "" H 2525 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C8
+L lets_split_panel-rescue:C_Small-RESCUE-lets_split_panel C8
 U 1 1 5A0E29C1
 P 2475 6475
 F 0 "C8" H 2567 6521 50  0000 L CNN
@@ -307,7 +242,7 @@ F 3 "" H 2475 6475 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small C6
+L lets_split_panel-rescue:C_Small-RESCUE-lets_split_panel C6
 U 1 1 5A0E29C7
 P 2375 5725
 F 0 "C6" V 2300 5825 50  0000 C CNN
@@ -318,7 +253,7 @@ F 3 "" H 2375 5725 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C7
+L lets_split_panel-rescue:C_Small-RESCUE-lets_split_panel C7
 U 1 1 5A0E29CD
 P 2375 6125
 F 0 "C7" V 2550 6125 50  0000 C CNN
@@ -329,7 +264,7 @@ F 3 "" H 2375 6125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R7
+L lets_split_panel-rescue:R_Small-RESCUE-lets_split_panel R7
 U 1 1 5A0E29D3
 P 1625 5425
 F 0 "R7" V 1650 5125 50  0000 R CNN
@@ -340,7 +275,7 @@ F 3 "" H 1625 5425 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R8
+L lets_split_panel-rescue:R_Small-RESCUE-lets_split_panel R8
 U 1 1 5A0E29D9
 P 1625 5525
 F 0 "R8" V 1650 5225 50  0000 R CNN
@@ -351,7 +286,7 @@ F 3 "" H 1625 5525 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VBUS #PWR031
+L lets_split_panel-rescue:VBUS-RESCUE-lets_split_panel #PWR031
 U 1 1 5A0E29DF
 P 1500 5275
 F 0 "#PWR031" H 1500 5125 50  0001 C CNN
@@ -362,7 +297,7 @@ F 3 "" H 1500 5275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR032
+L lets_split_panel-rescue:GND-RESCUE-lets_split_panel #PWR032
 U 1 1 5A0E29E5
 P 2100 6200
 F 0 "#PWR032" H 2100 5950 50  0001 C CNN
@@ -373,7 +308,7 @@ F 3 "" H 2100 6200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR033
+L lets_split_panel-rescue:GND-RESCUE-lets_split_panel #PWR033
 U 1 1 5A0E29EB
 P 1050 6050
 F 0 "#PWR033" H 1050 5800 50  0001 C CNN
@@ -384,7 +319,7 @@ F 3 "" H 1050 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C5
+L lets_split_panel-rescue:C_Small-RESCUE-lets_split_panel C5
 U 1 1 5A0E29F1
 P 2175 7025
 F 0 "C5" H 2267 7071 50  0000 L CNN
@@ -437,15 +372,7 @@ Wire Wire Line
 	2475 6625 2625 6625
 Connection ~ 2475 6725
 Wire Wire Line
-	3900 2375 3900 2425
-Wire Wire Line
-	3900 2425 3850 2425
-Wire Wire Line
-	3900 2675 3900 2625
-Wire Wire Line
-	3900 2625 3850 2625
-Wire Wire Line
-	3900 2525 3850 2525
+	3925 2525 3875 2525
 Wire Wire Line
 	4275 5425 4225 5425
 Wire Wire Line
@@ -517,7 +444,7 @@ Wire Wire Line
 	1500 5725 1450 5725
 Connection ~ 1050 5975
 $Comp
-L VBUS #PWR034
+L lets_split_panel-rescue:VBUS-RESCUE-lets_split_panel #PWR034
 U 1 1 5A0E2A43
 P 2175 6925
 F 0 "#PWR034" H 2175 6775 50  0001 C CNN
@@ -528,7 +455,7 @@ F 3 "" H 2175 6925 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR035
+L lets_split_panel-rescue:GND-RESCUE-lets_split_panel #PWR035
 U 1 1 5A0E2A49
 P 2175 7125
 F 0 "#PWR035" H 2175 6875 50  0001 C CNN
@@ -539,7 +466,7 @@ F 3 "" H 2175 7125 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J4
+L lets_split_panel-rescue:Conn_01x02-RESCUE-lets_split_panel J4
 U 1 1 5A0E2A4F
 P 1600 4875
 F 0 "J4" H 1625 4550 50  0000 C CNN
@@ -550,7 +477,7 @@ F 3 "" H 1600 4875 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR036
+L lets_split_panel-rescue:GND-RESCUE-lets_split_panel #PWR036
 U 1 1 5A0E2A55
 P 2150 4925
 F 0 "#PWR036" H 2150 4675 50  0001 C CNN
@@ -578,7 +505,7 @@ Connection ~ 2525 4425
 Wire Wire Line
 	4225 6525 4250 6525
 $Comp
-L Conn_02x03_Odd_Even J6
+L lets_split_panel-rescue:Conn_02x03_Odd_Even-RESCUE-lets_split_panel J6
 U 1 1 5A0E2A70
 P 5775 6700
 F 0 "J6" H 5825 7017 50  0000 C CNN
@@ -612,7 +539,7 @@ Wire Wire Line
 Wire Wire Line
 	6125 6600 6125 6550
 $Comp
-L VCC #PWR037
+L lets_split_panel-rescue:VCC-RESCUE-lets_split_panel #PWR037
 U 1 1 5A0E2A84
 P 6125 6550
 F 0 "#PWR037" H 6125 6400 50  0001 C CNN
@@ -623,7 +550,7 @@ F 3 "" H 6125 6550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR038
+L lets_split_panel-rescue:GND-RESCUE-lets_split_panel #PWR038
 U 1 1 5A0E2A8A
 P 6125 6850
 F 0 "#PWR038" H 6125 6600 50  0001 C CNN
@@ -638,7 +565,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 5325 10475 5325
 $Comp
-L MXALPS SW48
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW48
 U 1 1 5A0E2A92
 P 10200 5325
 F 0 "SW48" H 10175 5250 60  0000 C CNN
@@ -653,7 +580,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 5325 9725 5325
 $Comp
-L MXALPS SW44
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW44
 U 1 1 5A0E2A9A
 P 7250 5325
 F 0 "SW44" H 7225 5250 60  0000 C CNN
@@ -668,7 +595,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 5325 8975 5325
 $Comp
-L MXALPS SW40
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW40
 U 1 1 5A0E2AA2
 P 8700 4825
 F 0 "SW40" H 8675 4750 60  0000 C CNN
@@ -683,7 +610,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 5325 8225 5325
 $Comp
-L MXALPS SW36
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW36
 U 1 1 5A0E2AAA
 P 10200 4325
 F 0 "SW36" H 10175 4250 60  0000 C CNN
@@ -698,7 +625,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 5325 7525 5325
 $Comp
-L MXALPS SW32
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW32
 U 1 1 5A0E2AB2
 P 7250 4325
 F 0 "SW32" H 7225 4250 60  0000 C CNN
@@ -713,7 +640,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 5325 6775 5325
 $Comp
-L MXALPS SW28
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW28
 U 1 1 5A0E2ABA
 P 8700 3825
 F 0 "SW28" H 8675 3750 60  0000 C CNN
@@ -728,7 +655,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 4825 10475 4825
 $Comp
-L MXALPS SW47
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW47
 U 1 1 5A0E2AC2
 P 9450 5325
 F 0 "SW47" H 9425 5250 60  0000 C CNN
@@ -743,7 +670,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 4825 9725 4825
 $Comp
-L MXALPS SW43
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW43
 U 1 1 5A0E2ACA
 P 6500 5325
 F 0 "SW43" H 6475 5250 60  0000 C CNN
@@ -758,7 +685,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 4825 8975 4825
 $Comp
-L MXALPS SW39
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW39
 U 1 1 5A0E2AD2
 P 7950 4825
 F 0 "SW39" H 7925 4750 60  0000 C CNN
@@ -773,7 +700,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 4825 8225 4825
 $Comp
-L MXALPS SW35
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW35
 U 1 1 5A0E2ADA
 P 9450 4325
 F 0 "SW35" H 9425 4250 60  0000 C CNN
@@ -788,7 +715,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 4825 7525 4825
 $Comp
-L MXALPS SW31
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW31
 U 1 1 5A0E2AE2
 P 6500 4325
 F 0 "SW31" H 6475 4250 60  0000 C CNN
@@ -803,7 +730,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 4825 6775 4825
 $Comp
-L MXALPS SW27
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW27
 U 1 1 5A0E2AEA
 P 7950 3825
 F 0 "SW27" H 7925 3750 60  0000 C CNN
@@ -818,7 +745,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 4325 10475 4325
 $Comp
-L MXALPS SW46
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW46
 U 1 1 5A0E2AF2
 P 8700 5325
 F 0 "SW46" H 8675 5250 60  0000 C CNN
@@ -833,7 +760,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 4325 9725 4325
 $Comp
-L MXALPS SW42
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW42
 U 1 1 5A0E2AFA
 P 10200 4825
 F 0 "SW42" H 10175 4750 60  0000 C CNN
@@ -848,7 +775,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 4325 8975 4325
 $Comp
-L MXALPS SW38
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW38
 U 1 1 5A0E2B02
 P 7250 4825
 F 0 "SW38" H 7225 4750 60  0000 C CNN
@@ -863,7 +790,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 4325 8225 4325
 $Comp
-L MXALPS SW34
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW34
 U 1 1 5A0E2B0A
 P 8700 4325
 F 0 "SW34" H 8675 4250 60  0000 C CNN
@@ -878,7 +805,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 4325 7525 4325
 $Comp
-L MXALPS SW30
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW30
 U 1 1 5A0E2B12
 P 10200 3825
 F 0 "SW30" H 10175 3750 60  0000 C CNN
@@ -893,7 +820,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 4325 6775 4325
 $Comp
-L MXALPS SW26
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW26
 U 1 1 5A0E2B1A
 P 7250 3825
 F 0 "SW26" H 7225 3750 60  0000 C CNN
@@ -908,7 +835,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 3825 10475 3825
 $Comp
-L MXALPS SW45
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW45
 U 1 1 5A0E2B22
 P 7950 5325
 F 0 "SW45" H 7925 5250 60  0000 C CNN
@@ -923,7 +850,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 3825 9725 3825
 $Comp
-L MXALPS SW41
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW41
 U 1 1 5A0E2B2A
 P 9450 4825
 F 0 "SW41" H 9425 4750 60  0000 C CNN
@@ -938,7 +865,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 3825 8975 3825
 $Comp
-L MXALPS SW37
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW37
 U 1 1 5A0E2B32
 P 6500 4825
 F 0 "SW37" H 6475 4750 60  0000 C CNN
@@ -953,7 +880,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 3825 8225 3825
 $Comp
-L MXALPS SW33
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW33
 U 1 1 5A0E2B3A
 P 7950 4325
 F 0 "SW33" H 7925 4250 60  0000 C CNN
@@ -968,7 +895,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 3825 7525 3825
 $Comp
-L MXALPS SW29
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW29
 U 1 1 5A0E2B42
 P 9450 3825
 F 0 "SW29" H 9425 3750 60  0000 C CNN
@@ -989,7 +916,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 3825 6775 3825
 $Comp
-L MXALPS SW25
+L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW25
 U 1 1 5A0E2B50
 P 6500 3825
 F 0 "SW25" H 6475 3750 60  0000 C CNN
@@ -1068,7 +995,7 @@ col1
 Text Label 6175 3775 1    60   ~ 0
 col0
 $Comp
-L D D48
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D48
 U 1 1 5A0E2B86
 P 10475 5475
 F 0 "D48" H 10475 5575 50  0000 C CNN
@@ -1079,7 +1006,7 @@ F 3 "" H 10475 5475 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D44
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D44
 U 1 1 5A0E2B8C
 P 9725 5475
 F 0 "D44" H 9725 5575 50  0000 C CNN
@@ -1090,7 +1017,7 @@ F 3 "" H 9725 5475 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D40
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D40
 U 1 1 5A0E2B92
 P 8975 5475
 F 0 "D40" H 8975 5575 50  0000 C CNN
@@ -1101,7 +1028,7 @@ F 3 "" H 8975 5475 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D36
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D36
 U 1 1 5A0E2B98
 P 8225 5475
 F 0 "D36" H 8225 5575 50  0000 C CNN
@@ -1112,7 +1039,7 @@ F 3 "" H 8225 5475 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D32
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D32
 U 1 1 5A0E2B9E
 P 7525 5475
 F 0 "D32" H 7525 5575 50  0000 C CNN
@@ -1123,7 +1050,7 @@ F 3 "" H 7525 5475 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D28
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D28
 U 1 1 5A0E2BA4
 P 6775 5475
 F 0 "D28" H 6775 5575 50  0000 C CNN
@@ -1134,7 +1061,7 @@ F 3 "" H 6775 5475 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D47
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D47
 U 1 1 5A0E2BAA
 P 10475 4975
 F 0 "D47" H 10475 5075 50  0000 C CNN
@@ -1145,7 +1072,7 @@ F 3 "" H 10475 4975 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D43
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D43
 U 1 1 5A0E2BB0
 P 9725 4975
 F 0 "D43" H 9725 5075 50  0000 C CNN
@@ -1156,7 +1083,7 @@ F 3 "" H 9725 4975 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D39
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D39
 U 1 1 5A0E2BB6
 P 8975 4975
 F 0 "D39" H 8975 5075 50  0000 C CNN
@@ -1167,7 +1094,7 @@ F 3 "" H 8975 4975 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D35
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D35
 U 1 1 5A0E2BBC
 P 8225 4975
 F 0 "D35" H 8225 5075 50  0000 C CNN
@@ -1178,7 +1105,7 @@ F 3 "" H 8225 4975 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D31
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D31
 U 1 1 5A0E2BC2
 P 7525 4975
 F 0 "D31" H 7525 5075 50  0000 C CNN
@@ -1189,7 +1116,7 @@ F 3 "" H 7525 4975 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D27
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D27
 U 1 1 5A0E2BC8
 P 6775 4975
 F 0 "D27" H 6775 5075 50  0000 C CNN
@@ -1200,7 +1127,7 @@ F 3 "" H 6775 4975 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D46
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D46
 U 1 1 5A0E2BCE
 P 10475 4475
 F 0 "D46" H 10475 4575 50  0000 C CNN
@@ -1211,7 +1138,7 @@ F 3 "" H 10475 4475 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D42
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D42
 U 1 1 5A0E2BD4
 P 9725 4475
 F 0 "D42" H 9725 4575 50  0000 C CNN
@@ -1222,7 +1149,7 @@ F 3 "" H 9725 4475 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D38
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D38
 U 1 1 5A0E2BDA
 P 8975 4475
 F 0 "D38" H 8975 4575 50  0000 C CNN
@@ -1233,7 +1160,7 @@ F 3 "" H 8975 4475 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D34
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D34
 U 1 1 5A0E2BE0
 P 8225 4475
 F 0 "D34" H 8225 4575 50  0000 C CNN
@@ -1244,7 +1171,7 @@ F 3 "" H 8225 4475 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D30
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D30
 U 1 1 5A0E2BE6
 P 7525 4475
 F 0 "D30" H 7525 4575 50  0000 C CNN
@@ -1255,7 +1182,7 @@ F 3 "" H 7525 4475 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D26
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D26
 U 1 1 5A0E2BEC
 P 6775 4475
 F 0 "D26" H 6775 4575 50  0000 C CNN
@@ -1266,7 +1193,7 @@ F 3 "" H 6775 4475 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D45
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D45
 U 1 1 5A0E2BF2
 P 10475 3975
 F 0 "D45" H 10475 4075 50  0000 C CNN
@@ -1277,7 +1204,7 @@ F 3 "" H 10475 3975 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D41
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D41
 U 1 1 5A0E2BF8
 P 9725 3975
 F 0 "D41" H 9725 4075 50  0000 C CNN
@@ -1288,7 +1215,7 @@ F 3 "" H 9725 3975 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D37
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D37
 U 1 1 5A0E2BFE
 P 8975 3975
 F 0 "D37" H 8975 4075 50  0000 C CNN
@@ -1299,7 +1226,7 @@ F 3 "" H 8975 3975 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D33
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D33
 U 1 1 5A0E2C04
 P 8225 3975
 F 0 "D33" H 8225 4075 50  0000 C CNN
@@ -1310,7 +1237,7 @@ F 3 "" H 8225 3975 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D29
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D29
 U 1 1 5A0E2C0A
 P 7525 3975
 F 0 "D29" H 7525 4075 50  0000 C CNN
@@ -1321,7 +1248,7 @@ F 3 "" H 7525 3975 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D25
+L lets_split_panel-rescue:D-RESCUE-lets_split_panel D25
 U 1 1 5A0E2C10
 P 6775 3975
 F 0 "D25" H 6775 4075 50  0000 C CNN
@@ -1343,4 +1270,15 @@ Text Label 1450 5525 0    60   ~ 0
 Dd+
 Wire Wire Line
 	1450 5525 1525 5525
+$Comp
+L conn:Conn_01x01 J8
+U 1 1 5A14BD9C
+P 3675 2525
+F 0 "J8" H 3595 2300 50  0000 C CNN
+F 1 "WS2812>" H 3595 2391 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 3675 2525 50  0001 C CNN
+F 3 "~" H 3675 2525 50  0001 C CNN
+	1    3675 2525
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
