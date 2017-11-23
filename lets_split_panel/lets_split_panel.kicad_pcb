@@ -6834,7 +6834,7 @@
   (gr_arc (start 81.43 86.106) (end 80.287 84.836) (angle -96) (layer B.SilkS) (width 0.2) (tstamp 59FD9C79))
   (gr_arc (start 81.43 86.106) (end 80.668 85.217) (angle -98.18461252) (layer B.SilkS) (width 0.2) (tstamp 59FD9C78))
   (dimension 230.5 (width 0.3) (layer Cmts.User)
-    (gr_text "230.500 mm" (at 139.25 141.35) (layer Cmts.User) (tstamp 5A14AB37)
+    (gr_text "230.500 mm" (at 139.25 141.35) (layer Cmts.User) (tstamp 5A158286)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 254.5 138) (xy 254.5 142.7)))

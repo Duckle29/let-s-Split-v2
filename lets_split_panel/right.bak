@@ -510,7 +510,7 @@ U 1 1 5A0E2A70
 P 5775 6700
 F 0 "J6" H 5825 7017 50  0000 C CNN
 F 1 "ISP" H 5825 6926 50  0000 C CNN
-F 2 "Jlink:J-link-needle-6pin" H 5775 6700 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 5775 6700 50  0001 C CNN
 F 3 "" H 5775 6700 50  0001 C CNN
 	1    5775 6700
 	1    0    0    -1  

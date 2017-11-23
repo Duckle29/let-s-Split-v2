@@ -17,23 +17,23 @@ $EndDescr
 $Comp
 L lets_split_panel-rescue:VCC-RESCUE-lets_split_panel #PWR020
 U 1 1 5A0E2920
-P 6875 2950
-F 0 "#PWR020" H 6875 2800 50  0001 C CNN
-F 1 "VCC" H 6875 3100 50  0000 C CNN
-F 2 "" H 6875 2950 50  0000 C CNN
-F 3 "" H 6875 2950 50  0000 C CNN
-	1    6875 2950
+P 2925 1625
+F 0 "#PWR020" H 2925 1475 50  0001 C CNN
+F 1 "VCC" H 2925 1775 50  0000 C CNN
+F 2 "" H 2925 1625 50  0000 C CNN
+F 3 "" H 2925 1625 50  0000 C CNN
+	1    2925 1625
 	1    0    0    -1  
 $EndComp
 $Comp
 L lets_split_panel-rescue:GND-RESCUE-lets_split_panel #PWR021
 U 1 1 5A0E2926
-P 7350 3150
-F 0 "#PWR021" H 7350 2900 50  0001 C CNN
-F 1 "GND" H 7350 3000 50  0000 C CNN
-F 2 "" H 7350 3150 50  0000 C CNN
-F 3 "" H 7350 3150 50  0000 C CNN
-	1    7350 3150
+P 3400 1825
+F 0 "#PWR021" H 3400 1575 50  0001 C CNN
+F 1 "GND" H 3400 1675 50  0000 C CNN
+F 2 "" H 3400 1825 50  0000 C CNN
+F 3 "" H 3400 1825 50  0000 C CNN
+	1    3400 1825
 	1    0    0    -1  
 $EndComp
 Text Label 4225 6625 0    55   ~ 0
@@ -78,9 +78,9 @@ F 3 "" H 2475 7125 50  0000 C CNN
 	1    2475 7125
 	1    0    0    -1  
 $EndComp
-Text Label 7400 2900 2    55   ~ 0
+Text Label 3450 1575 2    55   ~ 0
 SCL/D3
-Text Label 7400 2800 2    55   ~ 0
+Text Label 3450 1475 2    55   ~ 0
 SDA
 $Comp
 L lets_split_panel-rescue:USB_OTG-RESCUE-lets_split-RESCUE-lets_split_panel P5
@@ -162,12 +162,12 @@ $EndComp
 $Comp
 L lets_split_panel-rescue:Conn_01x04-RESCUE-lets_split_panel P8
 U 1 1 5A0E2988
-P 7600 3000
-F 0 "P8" H 7525 2500 50  0000 C CNN
-F 1 "Conn_01x04" H 7519 2666 50  0000 C CNN
-F 2 "Connectors:SJ-4351X-SMT" H 7600 3000 50  0001 C CNN
-F 3 "" H 7600 3000 50  0001 C CNN
-	1    7600 3000
+P 3650 1675
+F 0 "P8" H 3575 1175 50  0000 C CNN
+F 1 "Conn_01x04" H 3569 1341 50  0000 C CNN
+F 2 "Connectors:SJ-4351X-SMT" H 3650 1675 50  0001 C CNN
+F 3 "" H 3650 1675 50  0001 C CNN
+	1    3650 1675
 	1    0    0    1   
 $EndComp
 $Comp
@@ -330,7 +330,7 @@ F 3 "" H 2175 7025 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6875 3000 7400 3000
+	2925 1675 3450 1675
 Wire Wire Line
 	2475 6575 2475 7125
 Wire Wire Line
@@ -344,11 +344,11 @@ Wire Wire Line
 Wire Wire Line
 	2350 4200 2350 5225
 Wire Wire Line
-	7350 3150 7350 3100
+	3400 1825 3400 1775
 Wire Wire Line
-	7350 3100 7400 3100
+	3400 1775 3450 1775
 Wire Wire Line
-	6875 2950 6875 3000
+	2925 1625 2925 1675
 Wire Wire Line
 	3075 2375 3075 2425
 Wire Wire Line
@@ -560,704 +560,6 @@ F 3 "" H 6125 6850 50  0000 C CNN
 	1    6125 6850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9875 5325 10000 5325
-Wire Wire Line
-	10400 5325 10475 5325
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW48
-U 1 1 5A0E2A92
-P 10200 5325
-F 0 "SW48" H 10175 5250 60  0000 C CNN
-F 1 "MXALPS" H 10200 5425 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 10200 5325 60  0001 C CNN
-F 3 "" H 10200 5325 60  0000 C CNN
-	1    10200 5325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9125 5325 9250 5325
-Wire Wire Line
-	9650 5325 9725 5325
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW44
-U 1 1 5A0E2A9A
-P 7250 5325
-F 0 "SW44" H 7225 5250 60  0000 C CNN
-F 1 "MXALPS" H 7250 5425 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7250 5325 60  0001 C CNN
-F 3 "" H 7250 5325 60  0000 C CNN
-	1    7250 5325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8375 5325 8500 5325
-Wire Wire Line
-	8900 5325 8975 5325
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW40
-U 1 1 5A0E2AA2
-P 8700 4825
-F 0 "SW40" H 8675 4750 60  0000 C CNN
-F 1 "MXALPS" H 8700 4925 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 8700 4825 60  0001 C CNN
-F 3 "" H 8700 4825 60  0000 C CNN
-	1    8700 4825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7625 5325 7750 5325
-Wire Wire Line
-	8150 5325 8225 5325
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW36
-U 1 1 5A0E2AAA
-P 10200 4325
-F 0 "SW36" H 10175 4250 60  0000 C CNN
-F 1 "MXALPS" H 10200 4425 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 10200 4325 60  0001 C CNN
-F 3 "" H 10200 4325 60  0000 C CNN
-	1    10200 4325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6925 5325 7050 5325
-Wire Wire Line
-	7450 5325 7525 5325
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW32
-U 1 1 5A0E2AB2
-P 7250 4325
-F 0 "SW32" H 7225 4250 60  0000 C CNN
-F 1 "MXALPS" H 7250 4425 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7250 4325 60  0001 C CNN
-F 3 "" H 7250 4325 60  0000 C CNN
-	1    7250 4325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6175 5325 6300 5325
-Wire Wire Line
-	6700 5325 6775 5325
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW28
-U 1 1 5A0E2ABA
-P 8700 3825
-F 0 "SW28" H 8675 3750 60  0000 C CNN
-F 1 "MXALPS" H 8700 3925 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 8700 3825 60  0001 C CNN
-F 3 "" H 8700 3825 60  0000 C CNN
-	1    8700 3825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9875 4825 10000 4825
-Wire Wire Line
-	10400 4825 10475 4825
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW47
-U 1 1 5A0E2AC2
-P 9450 5325
-F 0 "SW47" H 9425 5250 60  0000 C CNN
-F 1 "MXALPS" H 9450 5425 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 9450 5325 60  0001 C CNN
-F 3 "" H 9450 5325 60  0000 C CNN
-	1    9450 5325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9125 4825 9250 4825
-Wire Wire Line
-	9650 4825 9725 4825
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW43
-U 1 1 5A0E2ACA
-P 6500 5325
-F 0 "SW43" H 6475 5250 60  0000 C CNN
-F 1 "MXALPS" H 6500 5425 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 6500 5325 60  0001 C CNN
-F 3 "" H 6500 5325 60  0000 C CNN
-	1    6500 5325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8375 4825 8500 4825
-Wire Wire Line
-	8900 4825 8975 4825
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW39
-U 1 1 5A0E2AD2
-P 7950 4825
-F 0 "SW39" H 7925 4750 60  0000 C CNN
-F 1 "MXALPS" H 7950 4925 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7950 4825 60  0001 C CNN
-F 3 "" H 7950 4825 60  0000 C CNN
-	1    7950 4825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7625 4825 7750 4825
-Wire Wire Line
-	8150 4825 8225 4825
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW35
-U 1 1 5A0E2ADA
-P 9450 4325
-F 0 "SW35" H 9425 4250 60  0000 C CNN
-F 1 "MXALPS" H 9450 4425 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 9450 4325 60  0001 C CNN
-F 3 "" H 9450 4325 60  0000 C CNN
-	1    9450 4325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6925 4825 7050 4825
-Wire Wire Line
-	7450 4825 7525 4825
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW31
-U 1 1 5A0E2AE2
-P 6500 4325
-F 0 "SW31" H 6475 4250 60  0000 C CNN
-F 1 "MXALPS" H 6500 4425 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 6500 4325 60  0001 C CNN
-F 3 "" H 6500 4325 60  0000 C CNN
-	1    6500 4325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6175 4825 6300 4825
-Wire Wire Line
-	6700 4825 6775 4825
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW27
-U 1 1 5A0E2AEA
-P 7950 3825
-F 0 "SW27" H 7925 3750 60  0000 C CNN
-F 1 "MXALPS" H 7950 3925 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7950 3825 60  0001 C CNN
-F 3 "" H 7950 3825 60  0000 C CNN
-	1    7950 3825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9875 4325 10000 4325
-Wire Wire Line
-	10400 4325 10475 4325
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW46
-U 1 1 5A0E2AF2
-P 8700 5325
-F 0 "SW46" H 8675 5250 60  0000 C CNN
-F 1 "MXALPS" H 8700 5425 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 8700 5325 60  0001 C CNN
-F 3 "" H 8700 5325 60  0000 C CNN
-	1    8700 5325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9125 4325 9250 4325
-Wire Wire Line
-	9650 4325 9725 4325
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW42
-U 1 1 5A0E2AFA
-P 10200 4825
-F 0 "SW42" H 10175 4750 60  0000 C CNN
-F 1 "MXALPS" H 10200 4925 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 10200 4825 60  0001 C CNN
-F 3 "" H 10200 4825 60  0000 C CNN
-	1    10200 4825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8375 4325 8500 4325
-Wire Wire Line
-	8900 4325 8975 4325
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW38
-U 1 1 5A0E2B02
-P 7250 4825
-F 0 "SW38" H 7225 4750 60  0000 C CNN
-F 1 "MXALPS" H 7250 4925 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7250 4825 60  0001 C CNN
-F 3 "" H 7250 4825 60  0000 C CNN
-	1    7250 4825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7625 4325 7750 4325
-Wire Wire Line
-	8150 4325 8225 4325
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW34
-U 1 1 5A0E2B0A
-P 8700 4325
-F 0 "SW34" H 8675 4250 60  0000 C CNN
-F 1 "MXALPS" H 8700 4425 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 8700 4325 60  0001 C CNN
-F 3 "" H 8700 4325 60  0000 C CNN
-	1    8700 4325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6925 4325 7050 4325
-Wire Wire Line
-	7450 4325 7525 4325
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW30
-U 1 1 5A0E2B12
-P 10200 3825
-F 0 "SW30" H 10175 3750 60  0000 C CNN
-F 1 "MXALPS" H 10200 3925 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 10200 3825 60  0001 C CNN
-F 3 "" H 10200 3825 60  0000 C CNN
-	1    10200 3825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6175 4325 6300 4325
-Wire Wire Line
-	6700 4325 6775 4325
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW26
-U 1 1 5A0E2B1A
-P 7250 3825
-F 0 "SW26" H 7225 3750 60  0000 C CNN
-F 1 "MXALPS" H 7250 3925 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7250 3825 60  0001 C CNN
-F 3 "" H 7250 3825 60  0000 C CNN
-	1    7250 3825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10000 3825 9875 3825
-Wire Wire Line
-	10400 3825 10475 3825
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW45
-U 1 1 5A0E2B22
-P 7950 5325
-F 0 "SW45" H 7925 5250 60  0000 C CNN
-F 1 "MXALPS" H 7950 5425 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7950 5325 60  0001 C CNN
-F 3 "" H 7950 5325 60  0000 C CNN
-	1    7950 5325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9250 3825 9125 3825
-Wire Wire Line
-	9650 3825 9725 3825
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW41
-U 1 1 5A0E2B2A
-P 9450 4825
-F 0 "SW41" H 9425 4750 60  0000 C CNN
-F 1 "MXALPS" H 9450 4925 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 9450 4825 60  0001 C CNN
-F 3 "" H 9450 4825 60  0000 C CNN
-	1    9450 4825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8500 3825 8375 3825
-Wire Wire Line
-	8900 3825 8975 3825
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW37
-U 1 1 5A0E2B32
-P 6500 4825
-F 0 "SW37" H 6475 4750 60  0000 C CNN
-F 1 "MXALPS" H 6500 4925 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 6500 4825 60  0001 C CNN
-F 3 "" H 6500 4825 60  0000 C CNN
-	1    6500 4825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7750 3825 7625 3825
-Wire Wire Line
-	8150 3825 8225 3825
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW33
-U 1 1 5A0E2B3A
-P 7950 4325
-F 0 "SW33" H 7925 4250 60  0000 C CNN
-F 1 "MXALPS" H 7950 4425 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7950 4325 60  0001 C CNN
-F 3 "" H 7950 4325 60  0000 C CNN
-	1    7950 4325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 3825 6925 3825
-Wire Wire Line
-	7450 3825 7525 3825
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW29
-U 1 1 5A0E2B42
-P 9450 3825
-F 0 "SW29" H 9425 3750 60  0000 C CNN
-F 1 "MXALPS" H 9450 3925 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 9450 3825 60  0001 C CNN
-F 3 "" H 9450 3825 60  0000 C CNN
-	1    9450 3825
-	1    0    0    -1  
-$EndComp
-Connection ~ 9875 3825
-Connection ~ 9125 3825
-Connection ~ 8375 3825
-Connection ~ 7625 3825
-Connection ~ 6925 3825
-Connection ~ 6175 3825
-Wire Wire Line
-	6300 3825 6175 3825
-Wire Wire Line
-	6700 3825 6775 3825
-$Comp
-L lets_split_panel-rescue:MXALPS-RESCUE-lets_split_panel SW25
-U 1 1 5A0E2B50
-P 6500 3825
-F 0 "SW25" H 6475 3750 60  0000 C CNN
-F 1 "MXALPS" H 6500 3925 60  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 6500 3825 60  0001 C CNN
-F 3 "" H 6500 3825 60  0000 C CNN
-	1    6500 3825
-	1    0    0    -1  
-$EndComp
-Connection ~ 9875 4825
-Connection ~ 9875 4325
-Wire Wire Line
-	9875 3775 9875 5325
-Connection ~ 9125 4325
-Connection ~ 9125 4825
-Wire Wire Line
-	9125 3775 9125 5325
-Connection ~ 8375 4825
-Connection ~ 8375 4325
-Wire Wire Line
-	8375 3775 8375 5325
-Connection ~ 7625 4325
-Connection ~ 7625 4825
-Wire Wire Line
-	7625 3775 7625 5325
-Connection ~ 6925 4825
-Connection ~ 6925 4325
-Wire Wire Line
-	6925 3775 6925 5325
-Connection ~ 6175 4825
-Connection ~ 6175 4325
-Wire Wire Line
-	6175 3775 6175 5325
-Connection ~ 7525 5625
-Connection ~ 8225 5625
-Connection ~ 8975 5625
-Connection ~ 9725 5625
-Wire Wire Line
-	6775 5625 10475 5625
-Connection ~ 7525 5125
-Connection ~ 8225 5125
-Connection ~ 8975 5125
-Connection ~ 9725 5125
-Wire Wire Line
-	6775 5125 10475 5125
-Connection ~ 7525 4625
-Connection ~ 8225 4625
-Connection ~ 8975 4625
-Connection ~ 9725 4625
-Wire Wire Line
-	6775 4625 10475 4625
-Connection ~ 7525 4125
-Connection ~ 8225 4125
-Connection ~ 8975 4125
-Connection ~ 9725 4125
-Wire Wire Line
-	6775 4125 10475 4125
-Text Label 6775 5625 2    60   ~ 0
-row3
-Text Label 6775 5125 2    60   ~ 0
-row2
-Text Label 6775 4625 2    60   ~ 0
-row1
-Text Label 6775 4125 2    60   ~ 0
-row0
-Text Label 9875 3775 1    60   ~ 0
-col5
-Text Label 9125 3775 1    60   ~ 0
-col4
-Text Label 8375 3775 1    60   ~ 0
-col3
-Text Label 7625 3775 1    60   ~ 0
-col2
-Text Label 6925 3775 1    60   ~ 0
-col1
-Text Label 6175 3775 1    60   ~ 0
-col0
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D48
-U 1 1 5A0E2B86
-P 10475 5475
-F 0 "D48" H 10475 5575 50  0000 C CNN
-F 1 "D" H 10475 5375 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 10475 5475 50  0001 C CNN
-F 3 "" H 10475 5475 50  0000 C CNN
-	1    10475 5475
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D44
-U 1 1 5A0E2B8C
-P 9725 5475
-F 0 "D44" H 9725 5575 50  0000 C CNN
-F 1 "D" H 9725 5375 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 9725 5475 50  0001 C CNN
-F 3 "" H 9725 5475 50  0000 C CNN
-	1    9725 5475
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D40
-U 1 1 5A0E2B92
-P 8975 5475
-F 0 "D40" H 8975 5575 50  0000 C CNN
-F 1 "D" H 8975 5375 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 8975 5475 50  0001 C CNN
-F 3 "" H 8975 5475 50  0000 C CNN
-	1    8975 5475
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D36
-U 1 1 5A0E2B98
-P 8225 5475
-F 0 "D36" H 8225 5575 50  0000 C CNN
-F 1 "D" H 8225 5375 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 8225 5475 50  0001 C CNN
-F 3 "" H 8225 5475 50  0000 C CNN
-	1    8225 5475
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D32
-U 1 1 5A0E2B9E
-P 7525 5475
-F 0 "D32" H 7525 5575 50  0000 C CNN
-F 1 "D" H 7525 5375 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 7525 5475 50  0001 C CNN
-F 3 "" H 7525 5475 50  0000 C CNN
-	1    7525 5475
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D28
-U 1 1 5A0E2BA4
-P 6775 5475
-F 0 "D28" H 6775 5575 50  0000 C CNN
-F 1 "D" H 6775 5375 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 6775 5475 50  0001 C CNN
-F 3 "" H 6775 5475 50  0000 C CNN
-	1    6775 5475
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D47
-U 1 1 5A0E2BAA
-P 10475 4975
-F 0 "D47" H 10475 5075 50  0000 C CNN
-F 1 "D" H 10475 4875 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 10475 4975 50  0001 C CNN
-F 3 "" H 10475 4975 50  0000 C CNN
-	1    10475 4975
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D43
-U 1 1 5A0E2BB0
-P 9725 4975
-F 0 "D43" H 9725 5075 50  0000 C CNN
-F 1 "D" H 9725 4875 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 9725 4975 50  0001 C CNN
-F 3 "" H 9725 4975 50  0000 C CNN
-	1    9725 4975
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D39
-U 1 1 5A0E2BB6
-P 8975 4975
-F 0 "D39" H 8975 5075 50  0000 C CNN
-F 1 "D" H 8975 4875 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 8975 4975 50  0001 C CNN
-F 3 "" H 8975 4975 50  0000 C CNN
-	1    8975 4975
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D35
-U 1 1 5A0E2BBC
-P 8225 4975
-F 0 "D35" H 8225 5075 50  0000 C CNN
-F 1 "D" H 8225 4875 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 8225 4975 50  0001 C CNN
-F 3 "" H 8225 4975 50  0000 C CNN
-	1    8225 4975
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D31
-U 1 1 5A0E2BC2
-P 7525 4975
-F 0 "D31" H 7525 5075 50  0000 C CNN
-F 1 "D" H 7525 4875 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 7525 4975 50  0001 C CNN
-F 3 "" H 7525 4975 50  0000 C CNN
-	1    7525 4975
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D27
-U 1 1 5A0E2BC8
-P 6775 4975
-F 0 "D27" H 6775 5075 50  0000 C CNN
-F 1 "D" H 6775 4875 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 6775 4975 50  0001 C CNN
-F 3 "" H 6775 4975 50  0000 C CNN
-	1    6775 4975
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D46
-U 1 1 5A0E2BCE
-P 10475 4475
-F 0 "D46" H 10475 4575 50  0000 C CNN
-F 1 "D" H 10475 4375 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 10475 4475 50  0001 C CNN
-F 3 "" H 10475 4475 50  0000 C CNN
-	1    10475 4475
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D42
-U 1 1 5A0E2BD4
-P 9725 4475
-F 0 "D42" H 9725 4575 50  0000 C CNN
-F 1 "D" H 9725 4375 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 9725 4475 50  0001 C CNN
-F 3 "" H 9725 4475 50  0000 C CNN
-	1    9725 4475
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D38
-U 1 1 5A0E2BDA
-P 8975 4475
-F 0 "D38" H 8975 4575 50  0000 C CNN
-F 1 "D" H 8975 4375 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 8975 4475 50  0001 C CNN
-F 3 "" H 8975 4475 50  0000 C CNN
-	1    8975 4475
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D34
-U 1 1 5A0E2BE0
-P 8225 4475
-F 0 "D34" H 8225 4575 50  0000 C CNN
-F 1 "D" H 8225 4375 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 8225 4475 50  0001 C CNN
-F 3 "" H 8225 4475 50  0000 C CNN
-	1    8225 4475
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D30
-U 1 1 5A0E2BE6
-P 7525 4475
-F 0 "D30" H 7525 4575 50  0000 C CNN
-F 1 "D" H 7525 4375 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 7525 4475 50  0001 C CNN
-F 3 "" H 7525 4475 50  0000 C CNN
-	1    7525 4475
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D26
-U 1 1 5A0E2BEC
-P 6775 4475
-F 0 "D26" H 6775 4575 50  0000 C CNN
-F 1 "D" H 6775 4375 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 6775 4475 50  0001 C CNN
-F 3 "" H 6775 4475 50  0000 C CNN
-	1    6775 4475
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D45
-U 1 1 5A0E2BF2
-P 10475 3975
-F 0 "D45" H 10475 4075 50  0000 C CNN
-F 1 "D" H 10475 3875 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 10475 3975 50  0001 C CNN
-F 3 "" H 10475 3975 50  0000 C CNN
-	1    10475 3975
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D41
-U 1 1 5A0E2BF8
-P 9725 3975
-F 0 "D41" H 9725 4075 50  0000 C CNN
-F 1 "D" H 9725 3875 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 9725 3975 50  0001 C CNN
-F 3 "" H 9725 3975 50  0000 C CNN
-	1    9725 3975
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D37
-U 1 1 5A0E2BFE
-P 8975 3975
-F 0 "D37" H 8975 4075 50  0000 C CNN
-F 1 "D" H 8975 3875 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 8975 3975 50  0001 C CNN
-F 3 "" H 8975 3975 50  0000 C CNN
-	1    8975 3975
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D33
-U 1 1 5A0E2C04
-P 8225 3975
-F 0 "D33" H 8225 4075 50  0000 C CNN
-F 1 "D" H 8225 3875 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 8225 3975 50  0001 C CNN
-F 3 "" H 8225 3975 50  0000 C CNN
-	1    8225 3975
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D29
-U 1 1 5A0E2C0A
-P 7525 3975
-F 0 "D29" H 7525 4075 50  0000 C CNN
-F 1 "D" H 7525 3875 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 7525 3975 50  0001 C CNN
-F 3 "" H 7525 3975 50  0000 C CNN
-	1    7525 3975
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lets_split_panel-rescue:D-RESCUE-lets_split_panel D25
-U 1 1 5A0E2C10
-P 6775 3975
-F 0 "D25" H 6775 4075 50  0000 C CNN
-F 1 "D" H 6775 3875 50  0000 C CNN
-F 2 "SeeedOPL-Diode-2016:SOD-123" H 6775 3975 50  0001 C CNN
-F 3 "" H 6775 3975 50  0000 C CNN
-	1    6775 3975
-	0    -1   -1   0   
-$EndComp
 Text Label 5575 6600 2    55   ~ 0
 MISO
 Text Label 6075 6700 0    55   ~ 0
@@ -1281,4 +583,538 @@ F 3 "~" H 3675 2525 50  0001 C CNN
 	1    3675 2525
 	-1   0    0    1   
 $EndComp
+Text Label 5900 5425 2    60   ~ 0
+row3
+Text Label 5900 4125 2    60   ~ 0
+row1
+Text Label 5900 3475 2    60   ~ 0
+row0
+Text Label 7500 2900 3    60   ~ 0
+col1
+Text Label 6000 2900 3    60   ~ 0
+col0
+Text Label 9100 2900 3    60   ~ 0
+col3
+Text Label 5900 4775 2    60   ~ 0
+row2
+Text Label 7600 2900 3    60   ~ 0
+col2
+Text Label 9200 2900 3    60   ~ 0
+col4
+Text Label 10700 2900 3    60   ~ 0
+col5
+$Comp
+L device:D_x2_KCom_AAK D13
+U 1 1 5A17DCC9
+P 6750 3225
+F 0 "D13" H 6750 3441 50  0000 C CNN
+F 1 "D_x2_KCom_AAK" H 6750 3350 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6750 3225 50  0001 C CNN
+F 3 "" H 6750 3225 50  0001 C CNN
+	1    6750 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW25
+U 1 1 5A17DCD0
+P 6250 3225
+F 0 "SW25" H 6250 3510 50  0000 C CNN
+F 1 "Socket" H 6250 3419 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 6250 3425 50  0001 C CNN
+F 3 "" H 6250 3425 50  0001 C CNN
+	1    6250 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3225 6000 3225
+Wire Wire Line
+	6000 2900 6000 5175
+Wire Wire Line
+	7500 2900 7500 5175
+Wire Wire Line
+	7500 3225 7450 3225
+Wire Wire Line
+	6750 3425 6750 3475
+Wire Wire Line
+	5900 3475 9950 3475
+$Comp
+L device:D_x2_KCom_AAK D14
+U 1 1 5A17DCDD
+P 8350 3225
+F 0 "D14" H 8350 3441 50  0000 C CNN
+F 1 "D_x2_KCom_AAK" H 8350 3350 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 8350 3225 50  0001 C CNN
+F 3 "" H 8350 3225 50  0001 C CNN
+	1    8350 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3225 7600 3225
+Wire Wire Line
+	7600 2900 7600 5175
+Wire Wire Line
+	9100 2900 9100 5175
+Wire Wire Line
+	9100 3225 9050 3225
+Wire Wire Line
+	8350 3475 8350 3425
+$Comp
+L device:D_x2_KCom_AAK D15
+U 1 1 5A17DCE9
+P 9950 3225
+F 0 "D15" H 9950 3441 50  0000 C CNN
+F 1 "D_x2_KCom_AAK" H 9950 3350 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9950 3225 50  0001 C CNN
+F 3 "" H 9950 3225 50  0001 C CNN
+	1    9950 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 3225 9200 3225
+Wire Wire Line
+	9200 2900 9200 5175
+Wire Wire Line
+	10700 2900 10700 5175
+Wire Wire Line
+	10700 3225 10650 3225
+Wire Wire Line
+	9950 3475 9950 3425
+Connection ~ 6750 3475
+Connection ~ 8350 3475
+$Comp
+L switches:SW_Push SW26
+U 1 1 5A17DCF7
+P 7250 3225
+F 0 "SW26" H 7250 3510 50  0000 C CNN
+F 1 "Socket" H 7250 3419 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 7250 3425 50  0001 C CNN
+F 3 "" H 7250 3425 50  0001 C CNN
+	1    7250 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW27
+U 1 1 5A17DCFE
+P 7850 3225
+F 0 "SW27" H 7850 3510 50  0000 C CNN
+F 1 "Socket" H 7850 3419 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 7850 3425 50  0001 C CNN
+F 3 "" H 7850 3425 50  0001 C CNN
+	1    7850 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW28
+U 1 1 5A17DD05
+P 8850 3225
+F 0 "SW28" H 8850 3510 50  0000 C CNN
+F 1 "Socket" H 8850 3419 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 8850 3425 50  0001 C CNN
+F 3 "" H 8850 3425 50  0001 C CNN
+	1    8850 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW29
+U 1 1 5A17DD0C
+P 9450 3225
+F 0 "SW29" H 9450 3510 50  0000 C CNN
+F 1 "Socket" H 9450 3419 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 9450 3425 50  0001 C CNN
+F 3 "" H 9450 3425 50  0001 C CNN
+	1    9450 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW30
+U 1 1 5A17DD13
+P 10450 3225
+F 0 "SW30" H 10450 3510 50  0000 C CNN
+F 1 "Socket" H 10450 3419 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 10450 3425 50  0001 C CNN
+F 3 "" H 10450 3425 50  0001 C CNN
+	1    10450 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_x2_KCom_AAK D16
+U 1 1 5A17DD1A
+P 6750 3875
+F 0 "D16" H 6750 4091 50  0000 C CNN
+F 1 "D_x2_KCom_AAK" H 6750 4000 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6750 3875 50  0001 C CNN
+F 3 "" H 6750 3875 50  0001 C CNN
+	1    6750 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW31
+U 1 1 5A17DD21
+P 6250 3875
+F 0 "SW31" H 6250 4160 50  0000 C CNN
+F 1 "Socket" H 6250 4069 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 6250 4075 50  0001 C CNN
+F 3 "" H 6250 4075 50  0001 C CNN
+	1    6250 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3875 6000 3875
+Wire Wire Line
+	7500 3875 7450 3875
+Wire Wire Line
+	6750 4075 6750 4125
+Wire Wire Line
+	5900 4125 9950 4125
+$Comp
+L device:D_x2_KCom_AAK D17
+U 1 1 5A17DD2C
+P 8350 3875
+F 0 "D17" H 8350 4091 50  0000 C CNN
+F 1 "D_x2_KCom_AAK" H 8350 4000 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 8350 3875 50  0001 C CNN
+F 3 "" H 8350 3875 50  0001 C CNN
+	1    8350 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3875 7650 3875
+Wire Wire Line
+	9100 3875 9050 3875
+Wire Wire Line
+	8350 4125 8350 4075
+$Comp
+L device:D_x2_KCom_AAK D18
+U 1 1 5A17DD36
+P 9950 3875
+F 0 "D18" H 9950 4091 50  0000 C CNN
+F 1 "D_x2_KCom_AAK" H 9950 4000 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9950 3875 50  0001 C CNN
+F 3 "" H 9950 3875 50  0001 C CNN
+	1    9950 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 3875 9200 3875
+Wire Wire Line
+	10700 3875 10650 3875
+Wire Wire Line
+	9950 4125 9950 4075
+Connection ~ 6750 4125
+Connection ~ 8350 4125
+$Comp
+L switches:SW_Push SW32
+U 1 1 5A17DD42
+P 7250 3875
+F 0 "SW32" H 7250 4160 50  0000 C CNN
+F 1 "Socket" H 7250 4069 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 7250 4075 50  0001 C CNN
+F 3 "" H 7250 4075 50  0001 C CNN
+	1    7250 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW33
+U 1 1 5A17DD49
+P 7850 3875
+F 0 "SW33" H 7850 4160 50  0000 C CNN
+F 1 "Socket" H 7850 4069 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 7850 4075 50  0001 C CNN
+F 3 "" H 7850 4075 50  0001 C CNN
+	1    7850 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW34
+U 1 1 5A17DD50
+P 8850 3875
+F 0 "SW34" H 8850 4160 50  0000 C CNN
+F 1 "Socket" H 8850 4069 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 8850 4075 50  0001 C CNN
+F 3 "" H 8850 4075 50  0001 C CNN
+	1    8850 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW35
+U 1 1 5A17DD57
+P 9450 3875
+F 0 "SW35" H 9450 4160 50  0000 C CNN
+F 1 "Socket" H 9450 4069 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 9450 4075 50  0001 C CNN
+F 3 "" H 9450 4075 50  0001 C CNN
+	1    9450 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW36
+U 1 1 5A17DD5E
+P 10450 3875
+F 0 "SW36" H 10450 4160 50  0000 C CNN
+F 1 "Socket" H 10450 4069 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 10450 4075 50  0001 C CNN
+F 3 "" H 10450 4075 50  0001 C CNN
+	1    10450 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_x2_KCom_AAK D19
+U 1 1 5A17DD65
+P 6750 4525
+F 0 "D19" H 6750 4741 50  0000 C CNN
+F 1 "D_x2_KCom_AAK" H 6750 4650 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6750 4525 50  0001 C CNN
+F 3 "" H 6750 4525 50  0001 C CNN
+	1    6750 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW37
+U 1 1 5A17DD6C
+P 6250 4525
+F 0 "SW37" H 6250 4810 50  0000 C CNN
+F 1 "Socket" H 6250 4719 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 6250 4725 50  0001 C CNN
+F 3 "" H 6250 4725 50  0001 C CNN
+	1    6250 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4525 6000 4525
+Wire Wire Line
+	7500 4525 7450 4525
+Wire Wire Line
+	6750 4725 6750 4775
+Wire Wire Line
+	5900 4775 9950 4775
+$Comp
+L device:D_x2_KCom_AAK D20
+U 1 1 5A17DD77
+P 8350 4525
+F 0 "D20" H 8350 4741 50  0000 C CNN
+F 1 "D_x2_KCom_AAK" H 8350 4650 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 8350 4525 50  0001 C CNN
+F 3 "" H 8350 4525 50  0001 C CNN
+	1    8350 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 4525 7650 4525
+Wire Wire Line
+	9100 4525 9050 4525
+Wire Wire Line
+	8350 4775 8350 4725
+$Comp
+L device:D_x2_KCom_AAK D21
+U 1 1 5A17DD81
+P 9950 4525
+F 0 "D21" H 9950 4741 50  0000 C CNN
+F 1 "D_x2_KCom_AAK" H 9950 4650 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9950 4525 50  0001 C CNN
+F 3 "" H 9950 4525 50  0001 C CNN
+	1    9950 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 4525 9200 4525
+Wire Wire Line
+	10700 4525 10650 4525
+Wire Wire Line
+	9950 4775 9950 4725
+Connection ~ 6750 4775
+Connection ~ 8350 4775
+$Comp
+L switches:SW_Push SW38
+U 1 1 5A17DD8D
+P 7250 4525
+F 0 "SW38" H 7250 4810 50  0000 C CNN
+F 1 "Socket" H 7250 4719 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 7250 4725 50  0001 C CNN
+F 3 "" H 7250 4725 50  0001 C CNN
+	1    7250 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW39
+U 1 1 5A17DD94
+P 7850 4525
+F 0 "SW39" H 7850 4810 50  0000 C CNN
+F 1 "Socket" H 7850 4719 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 7850 4725 50  0001 C CNN
+F 3 "" H 7850 4725 50  0001 C CNN
+	1    7850 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW40
+U 1 1 5A17DD9B
+P 8850 4525
+F 0 "SW40" H 8850 4810 50  0000 C CNN
+F 1 "Socket" H 8850 4719 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 8850 4725 50  0001 C CNN
+F 3 "" H 8850 4725 50  0001 C CNN
+	1    8850 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW41
+U 1 1 5A17DDA2
+P 9450 4525
+F 0 "SW41" H 9450 4810 50  0000 C CNN
+F 1 "Socket" H 9450 4719 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 9450 4725 50  0001 C CNN
+F 3 "" H 9450 4725 50  0001 C CNN
+	1    9450 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW42
+U 1 1 5A17DDA9
+P 10450 4525
+F 0 "SW42" H 10450 4810 50  0000 C CNN
+F 1 "Socket" H 10450 4719 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 10450 4725 50  0001 C CNN
+F 3 "" H 10450 4725 50  0001 C CNN
+	1    10450 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_x2_KCom_AAK D22
+U 1 1 5A17DDB0
+P 6750 5175
+F 0 "D22" H 6750 5391 50  0000 C CNN
+F 1 "D_x2_KCom_AAK" H 6750 5300 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6750 5175 50  0001 C CNN
+F 3 "" H 6750 5175 50  0001 C CNN
+	1    6750 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW43
+U 1 1 5A17DDB7
+P 6250 5175
+F 0 "SW43" H 6250 5460 50  0000 C CNN
+F 1 "Socket" H 6250 5369 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 6250 5375 50  0001 C CNN
+F 3 "" H 6250 5375 50  0001 C CNN
+	1    6250 5175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 5175 6050 5175
+Wire Wire Line
+	7500 5175 7450 5175
+Wire Wire Line
+	6750 5375 6750 5425
+Wire Wire Line
+	5900 5425 9950 5425
+$Comp
+L device:D_x2_KCom_AAK D23
+U 1 1 5A17DDC2
+P 8350 5175
+F 0 "D23" H 8350 5391 50  0000 C CNN
+F 1 "D_x2_KCom_AAK" H 8350 5300 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 8350 5175 50  0001 C CNN
+F 3 "" H 8350 5175 50  0001 C CNN
+	1    8350 5175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 5175 7650 5175
+Wire Wire Line
+	9100 5175 9050 5175
+Wire Wire Line
+	8350 5425 8350 5375
+$Comp
+L device:D_x2_KCom_AAK D24
+U 1 1 5A17DDCC
+P 9950 5175
+F 0 "D24" H 9950 5391 50  0000 C CNN
+F 1 "D_x2_KCom_AAK" H 9950 5300 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9950 5175 50  0001 C CNN
+F 3 "" H 9950 5175 50  0001 C CNN
+	1    9950 5175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 5175 9250 5175
+Wire Wire Line
+	10700 5175 10650 5175
+Wire Wire Line
+	9950 5425 9950 5375
+Connection ~ 6750 5425
+Connection ~ 8350 5425
+$Comp
+L switches:SW_Push SW44
+U 1 1 5A17DDD8
+P 7250 5175
+F 0 "SW44" H 7250 5460 50  0000 C CNN
+F 1 "Socket" H 7250 5369 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 7250 5375 50  0001 C CNN
+F 3 "" H 7250 5375 50  0001 C CNN
+	1    7250 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW45
+U 1 1 5A17DDDF
+P 7850 5175
+F 0 "SW45" H 7850 5460 50  0000 C CNN
+F 1 "Socket" H 7850 5369 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 7850 5375 50  0001 C CNN
+F 3 "" H 7850 5375 50  0001 C CNN
+	1    7850 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW46
+U 1 1 5A17DDE6
+P 8850 5175
+F 0 "SW46" H 8850 5460 50  0000 C CNN
+F 1 "Socket" H 8850 5369 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 8850 5375 50  0001 C CNN
+F 3 "" H 8850 5375 50  0001 C CNN
+	1    8850 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW47
+U 1 1 5A17DDED
+P 9450 5175
+F 0 "SW47" H 9450 5460 50  0000 C CNN
+F 1 "Socket" H 9450 5369 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 9450 5375 50  0001 C CNN
+F 3 "" H 9450 5375 50  0001 C CNN
+	1    9450 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW48
+U 1 1 5A17DDF4
+P 10450 5175
+F 0 "SW48" H 10450 5460 50  0000 C CNN
+F 1 "Socket" H 10450 5369 50  0000 C CNN
+F 2 "CherryMX:Kailh-socket" H 10450 5375 50  0001 C CNN
+F 3 "" H 10450 5375 50  0001 C CNN
+	1    10450 5175
+	1    0    0    -1  
+$EndComp
+Connection ~ 6000 4525
+Connection ~ 6000 3875
+Connection ~ 6000 3225
+Connection ~ 7500 3225
+Connection ~ 7600 3225
+Connection ~ 7500 3875
+Connection ~ 7600 3875
+Connection ~ 7500 4525
+Connection ~ 7600 4525
+Connection ~ 9100 3225
+Connection ~ 9100 3875
+Connection ~ 9100 4525
+Connection ~ 9200 4525
+Connection ~ 9200 3875
+Connection ~ 9200 3225
+Connection ~ 10700 4525
+Connection ~ 10700 3875
+Connection ~ 10700 3225
 $EndSCHEMATC
