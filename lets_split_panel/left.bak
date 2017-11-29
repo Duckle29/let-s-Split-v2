@@ -244,7 +244,7 @@ U 1 1 5A0E35D4
 P 2450 6725
 F 0 "C4" H 2542 6771 50  0000 L CNN
 F 1 "1uF" H 2542 6680 50  0000 L CNN
-F 2 "SeeedOPL-Capacitor-2016:C0603" H 2450 6725 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 2450 6725 50  0001 C CNN
 F 3 "" H 2450 6725 50  0001 C CNN
 	1    2450 6725
 	-1   0    0    -1  
@@ -255,7 +255,7 @@ U 1 1 5A0E4445
 P 2350 5975
 F 0 "C2" V 2275 6075 50  0000 C CNN
 F 1 "8pF" V 2250 5875 50  0000 C CNN
-F 2 "SeeedOPL-Capacitor-2016:C0402" H 2350 5975 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 2350 5975 50  0001 C CNN
 F 3 "" H 2350 5975 50  0001 C CNN
 	1    2350 5975
 	0    1    1    0   
@@ -266,7 +266,7 @@ U 1 1 5A0E5B22
 P 2350 6375
 F 0 "C3" V 2525 6375 50  0000 C CNN
 F 1 "8pF" V 2450 6375 50  0000 C CNN
-F 2 "SeeedOPL-Capacitor-2016:C0402" H 2350 6375 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 2350 6375 50  0001 C CNN
 F 3 "" H 2350 6375 50  0001 C CNN
 	1    2350 6375
 	0    1    1    0   
@@ -332,7 +332,7 @@ U 1 1 5A0ED736
 P 2150 7275
 F 0 "C1" H 2242 7321 50  0000 L CNN
 F 1 "1uF" H 2242 7230 50  0000 L CNN
-F 2 "SeeedOPL-Capacitor-2016:C0603" H 2150 7275 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 2150 7275 50  0001 C CNN
 F 3 "" H 2150 7275 50  0001 C CNN
 	1    2150 7275
 	-1   0    0    -1  
@@ -358,28 +358,6 @@ F 2 "" H 2150 7375 50  0000 C CNN
 F 3 "" H 2150 7375 50  0000 C CNN
 	1    2150 7375
 	-1   0    0    -1  
-$EndComp
-$Comp
-L lets_split_panel-rescue:Conn_01x02-RESCUE-lets_split_panel J2
-U 1 1 5A0F48A9
-P 1575 5125
-F 0 "J2" H 1600 4800 50  0000 C CNN
-F 1 "RST" H 1675 4900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1575 5125 50  0001 C CNN
-F 3 "" H 1575 5125 50  0001 C CNN
-	1    1575 5125
-	-1   0    0    1   
-$EndComp
-$Comp
-L lets_split_panel-rescue:GND-RESCUE-lets_split_panel #PWR015
-U 1 1 5A0F501A
-P 2125 5175
-F 0 "#PWR015" H 2125 4925 50  0001 C CNN
-F 1 "GND" H 2125 5025 50  0000 C CNN
-F 2 "" H 2125 5175 50  0000 C CNN
-F 3 "" H 2125 5175 50  0000 C CNN
-	1    2125 5175
-	1    0    0    -1  
 $EndComp
 Text Label 2225 5675 0    60   ~ 0
 D-
@@ -471,9 +449,6 @@ Wire Wire Line
 	6100 7050 6100 7100
 Wire Wire Line
 	6050 7050 6100 7050
-Connection ~ 1900 5025
-Wire Wire Line
-	1900 4725 1900 5025
 Connection ~ 3450 1225
 Wire Wire Line
 	3450 1225 3450 1175
@@ -490,10 +465,6 @@ Wire Wire Line
 	2550 6775 2550 6875
 Wire Wire Line
 	2600 6775 2550 6775
-Wire Wire Line
-	2125 5125 2125 5175
-Wire Wire Line
-	1775 5125 2125 5125
 Connection ~ 1000 6225
 Wire Wire Line
 	1450 5975 1400 5975
@@ -537,8 +508,6 @@ Wire Wire Line
 Wire Wire Line
 	2200 4775 2200 4800
 Connection ~ 2200 5025
-Wire Wire Line
-	1775 5025 2600 5025
 Wire Wire Line
 	2200 5025 2200 5000
 Wire Wire Line
@@ -686,7 +655,7 @@ Wire Wire Line
 	5550 7050 5500 7050
 Text Label 5500 7050 2    60   ~ 0
 ~Reset
-Text Label 1900 4725 3    60   ~ 0
+Text Label 1900 5025 2    60   ~ 0
 ~Reset
 Wire Wire Line
 	3175 3375 2925 3375
@@ -1245,4 +1214,6 @@ Connection ~ 9100 2875
 Connection ~ 10600 4175
 Connection ~ 10600 3525
 Connection ~ 10600 2875
+Wire Wire Line
+	1900 5025 2600 5025
 $EndSCHEMATC
