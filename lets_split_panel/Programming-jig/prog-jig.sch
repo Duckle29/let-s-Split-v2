@@ -1,0 +1,313 @@
+EESchema Schematic File Version 4
+LIBS:prog-jig-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L conn:Conn_01x10 J2
+U 1 1 5A21D134
+P 6150 3725
+F 0 "J2" H 6230 3717 50  0000 L CNN
+F 1 "Conn_01x10" H 6230 3626 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 6150 3725 50  0001 C CNN
+F 3 "~" H 6150 3725 50  0001 C CNN
+	1    6150 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5A21D245
+P 5900 3275
+F 0 "#PWR01" H 5900 3125 50  0001 C CNN
+F 1 "+5V" H 5915 3448 50  0000 C CNN
+F 2 "" H 5900 3275 50  0001 C CNN
+F 3 "" H 5900 3275 50  0001 C CNN
+	1    5900 3275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3275 5900 3325
+Wire Wire Line
+	5900 3325 5950 3325
+$Comp
+L power:+3V3 #PWR02
+U 1 1 5A21D290
+P 5700 3275
+F 0 "#PWR02" H 5700 3125 50  0001 C CNN
+F 1 "+3V3" H 5715 3448 50  0000 C CNN
+F 2 "" H 5700 3275 50  0001 C CNN
+F 3 "" H 5700 3275 50  0001 C CNN
+	1    5700 3275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3275 5700 3425
+Wire Wire Line
+	5700 3425 5950 3425
+Text GLabel 9000 2025 2    55   Output ~ 0
+MISO-AVR
+Text GLabel 9000 2225 2    55   Input ~ 0
+MOSI-AVR
+Text GLabel 9000 2125 2    55   Input ~ 0
+SCK-AVR
+Text GLabel 9000 2325 2    55   Input ~ 0
+RST-AVR
+Text GLabel 5950 3625 0    55   Input ~ 0
+MISO-AVR
+Text GLabel 5950 3825 0    55   Output ~ 0
+MOSI-AVR
+Text GLabel 5950 4025 0    55   Output ~ 0
+SCK-AVR
+Text GLabel 5950 4225 0    55   Output ~ 0
+RST-AVR
+$Comp
+L conn:Conn_02x20_Odd_Even J1
+U 1 1 5A21D753
+P 4150 3350
+F 0 "J1" H 4200 4467 50  0000 C CNN
+F 1 "RPIz" H 4200 4376 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x20_Pitch2.54mm" H 4150 3350 50  0001 C CNN
+F 3 "~" H 4150 3350 50  0001 C CNN
+	1    4150 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2550 4450 2550
+Wire Wire Line
+	4500 2375 4500 2550
+Wire Wire Line
+	4500 2450 4450 2450
+Connection ~ 4500 2450
+$Comp
+L power:+5V #PWR05
+U 1 1 5A21D848
+P 4500 2375
+F 0 "#PWR05" H 4500 2225 50  0001 C CNN
+F 1 "+5V" H 4515 2548 50  0000 C CNN
+F 2 "" H 4500 2375 50  0001 C CNN
+F 3 "" H 4500 2375 50  0001 C CNN
+	1    4500 2375
+	1    0    0    -1  
+$EndComp
+Text GLabel 5950 3525 0    55   Output ~ 0
+MISO-PI
+Text GLabel 5950 3725 0    55   Input ~ 0
+MOSI-PI
+Text GLabel 5950 3925 0    55   Input ~ 0
+SCK-PI
+Text GLabel 5950 4125 0    55   Input ~ 0
+RST-PI
+Text GLabel 3825 3350 0    55   Input ~ 0
+MISO-PI
+Text GLabel 3825 3450 0    55   Output ~ 0
+MOSI-PI
+Text GLabel 3825 3550 0    55   Output ~ 0
+SCK-PI
+Text GLabel 3825 3850 0    55   Input ~ 0
+RST-PI
+Wire Wire Line
+	3825 3850 3950 3850
+Wire Wire Line
+	3825 3350 3950 3350
+Wire Wire Line
+	3825 3450 3950 3450
+Wire Wire Line
+	3950 3550 3825 3550
+Wire Wire Line
+	3900 3250 3950 3250
+Wire Wire Line
+	3900 2375 3900 3250
+$Comp
+L power:+3V3 #PWR06
+U 1 1 5A21DD30
+P 3900 2375
+F 0 "#PWR06" H 3900 2225 50  0001 C CNN
+F 1 "+3V3" H 3915 2548 50  0000 C CNN
+F 2 "" H 3900 2375 50  0001 C CNN
+F 3 "" H 3900 2375 50  0001 C CNN
+	1    3900 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R_Small R1
+U 1 1 5A21E3E5
+P 3675 5600
+F 0 "R1" V 3475 5625 50  0000 L CNN
+F 1 "39R" V 3475 5775 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3675 5600 50  0001 C CNN
+F 3 "" H 3675 5600 50  0001 C CNN
+	1    3675 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:R_Small R2
+U 1 1 5A21E4AC
+P 3675 5700
+F 0 "R2" V 3500 5725 50  0000 L CNN
+F 1 "39R" V 3500 5875 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3675 5700 50  0001 C CNN
+F 3 "" H 3675 5700 50  0001 C CNN
+	1    3675 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5A21E6F9
+P 3725 5850
+F 0 "#PWR09" H 3725 5600 50  0001 C CNN
+F 1 "GND" H 3730 5677 50  0000 C CNN
+F 2 "" H 3725 5850 50  0001 C CNN
+F 3 "" H 3725 5850 50  0001 C CNN
+	1    3725 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 3575 5700 0    55   Input ~ 0
+LED_GREEN
+Text GLabel 3575 5600 0    55   Input ~ 0
+LED_RED
+Text GLabel 4575 3150 2    55   Output ~ 0
+LED_GREEN
+Text GLabel 4575 3250 2    55   Output ~ 0
+LED_RED
+Wire Wire Line
+	4450 3150 4575 3150
+Wire Wire Line
+	4450 3250 4575 3250
+$Comp
+L atmel:AVR-ISP-6 CON1
+U 1 1 5A21F523
+P 7675 2325
+F 0 "CON1" H 7445 2421 50  0000 R CNN
+F 1 "AVR-ISP-6" H 7445 2330 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" V 7425 2375 50  0001 C CNN
+F 3 "" H 6400 1775 50  0001 C CNN
+	1    7675 2325
+	-1   0    0    -1  
+$EndComp
+Text GLabel 7275 2125 0    55   Output ~ 0
+MISO-AVR
+Text GLabel 7275 2225 0    55   Input ~ 0
+MOSI-AVR
+Text GLabel 7275 2325 0    55   Input ~ 0
+SCK-AVR
+Text GLabel 7275 2425 0    55   Input ~ 0
+RST-AVR
+$Comp
+L power:GND #PWR010
+U 1 1 5A21F52E
+P 7775 2725
+F 0 "#PWR010" H 7775 2475 50  0001 C CNN
+F 1 "GND" H 7780 2552 50  0000 C CNN
+F 2 "" H 7775 2725 50  0001 C CNN
+F 3 "" H 7775 2725 50  0001 C CNN
+	1    7775 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR011
+U 1 1 5A21F534
+P 8950 1925
+F 0 "#PWR011" H 8950 1775 50  0001 C CNN
+F 1 "+5V" H 8965 2098 50  0000 C CNN
+F 2 "" H 8950 1925 50  0001 C CNN
+F 3 "" H 8950 1925 50  0001 C CNN
+	1    8950 1925
+	1    0    0    -1  
+$EndComp
+Text GLabel 3775 5500 0    55   Output ~ 0
+SW
+Text GLabel 4575 3450 2    55   Input ~ 0
+SW
+Wire Wire Line
+	4575 3450 4450 3450
+$Comp
+L conn:Conn_01x04 J3
+U 1 1 5A21DEF7
+P 3975 5600
+F 0 "J3" H 4055 5592 50  0000 L CNN
+F 1 "Conn_01x04" H 4055 5501 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x04_Pitch2.54mm" H 3975 5600 50  0001 C CNN
+F 3 "~" H 3975 5600 50  0001 C CNN
+	1    3975 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3725 5850 3725 5800
+Wire Wire Line
+	3725 5800 3775 5800
+Wire Wire Line
+	4450 2650 4500 2650
+Wire Wire Line
+	4500 2650 4500 4400
+$Comp
+L power:GND #PWR08
+U 1 1 5A21EDA5
+P 4500 4400
+F 0 "#PWR08" H 4500 4150 50  0001 C CNN
+F 1 "GND" H 4505 4227 50  0000 C CNN
+F 2 "" H 4500 4400 50  0001 C CNN
+F 3 "" H 4500 4400 50  0001 C CNN
+	1    4500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:Conn_01x06 CON2
+U 1 1 5A21F16B
+P 8700 2325
+F 0 "CON2" H 8620 1800 50  0000 C CNN
+F 1 "ISP" H 8620 1891 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 8700 2325 50  0001 C CNN
+F 3 "~" H 8700 2325 50  0001 C CNN
+	1    8700 2325
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8900 2425 8950 2425
+Wire Wire Line
+	8950 2425 8950 1925
+Wire Wire Line
+	8900 2525 8950 2525
+Wire Wire Line
+	8950 2525 8950 2575
+$Comp
+L power:GND #PWR03
+U 1 1 5A21F476
+P 8950 2575
+F 0 "#PWR03" H 8950 2325 50  0001 C CNN
+F 1 "GND" H 8955 2402 50  0000 C CNN
+F 2 "" H 8950 2575 50  0001 C CNN
+F 3 "" H 8950 2575 50  0001 C CNN
+	1    8950 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 2325 9000 2325
+Wire Wire Line
+	9000 2225 8900 2225
+Wire Wire Line
+	8900 2125 9000 2125
+Wire Wire Line
+	9000 2025 8900 2025
+$Comp
+L power:+5V #PWR04
+U 1 1 5A21FB3D
+P 7775 1825
+F 0 "#PWR04" H 7775 1675 50  0001 C CNN
+F 1 "+5V" H 7790 1998 50  0000 C CNN
+F 2 "" H 7775 1825 50  0001 C CNN
+F 3 "" H 7775 1825 50  0001 C CNN
+	1    7775 1825
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

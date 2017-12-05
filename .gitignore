@@ -2,4 +2,7 @@
 *autosave*
 *saved*
 Test-jig
-
+*.gb*
+*.gt*
+*.gm*
+*.drl
