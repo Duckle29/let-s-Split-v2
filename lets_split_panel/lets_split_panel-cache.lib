@@ -76,11 +76,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x01
+# Conn_01x01-RESCUE-lets_split_panel
 #
-DEF Conn_01x01 J 0 40 Y N 1 F N
+DEF Conn_01x01-RESCUE-lets_split_panel J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Conn_01x01" 0 -100 50 H V C CNN
+F1 "Conn_01x01-RESCUE-lets_split_panel" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -295,11 +295,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SW_Push
+# SW_Push-RESCUE-lets_split_panel
 #
-DEF SW_Push SW 0 40 N N 1 F N
+DEF SW_Push-RESCUE-lets_split_panel SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "SW_Push" 0 -60 50 H V C CNN
+F1 "SW_Push-RESCUE-lets_split_panel" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW

@@ -542,7 +542,7 @@ Dd+
 Wire Wire Line
 	1450 5525 1525 5525
 $Comp
-L conn:Conn_01x01 J8
+L lets_split_panel-rescue:Conn_01x01-RESCUE-lets_split_panel J8
 U 1 1 5A14BD9C
 P 3675 2525
 F 0 "J8" H 3595 2300 50  0000 C CNN
@@ -584,7 +584,7 @@ F 3 "" H 6750 3225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW25
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW25
 U 1 1 5A17DCD0
 P 6250 3225
 F 0 "SW25" H 6250 3510 50  0000 C CNN
@@ -651,7 +651,7 @@ Wire Wire Line
 Connection ~ 6750 3475
 Connection ~ 8350 3475
 $Comp
-L switches:SW_Push SW26
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW26
 U 1 1 5A17DCF7
 P 7250 3225
 F 0 "SW26" H 7250 3510 50  0000 C CNN
@@ -662,7 +662,7 @@ F 3 "" H 7250 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW27
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW27
 U 1 1 5A17DCFE
 P 7850 3225
 F 0 "SW27" H 7850 3510 50  0000 C CNN
@@ -673,7 +673,7 @@ F 3 "" H 7850 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW28
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW28
 U 1 1 5A17DD05
 P 8850 3225
 F 0 "SW28" H 8850 3510 50  0000 C CNN
@@ -684,7 +684,7 @@ F 3 "" H 8850 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW29
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW29
 U 1 1 5A17DD0C
 P 9450 3225
 F 0 "SW29" H 9450 3510 50  0000 C CNN
@@ -695,7 +695,7 @@ F 3 "" H 9450 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW30
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW30
 U 1 1 5A17DD13
 P 10450 3225
 F 0 "SW30" H 10450 3510 50  0000 C CNN
@@ -717,7 +717,7 @@ F 3 "" H 6750 3875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW31
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW31
 U 1 1 5A17DD21
 P 6250 3875
 F 0 "SW31" H 6250 4160 50  0000 C CNN
@@ -772,7 +772,7 @@ Wire Wire Line
 Connection ~ 6750 4125
 Connection ~ 8350 4125
 $Comp
-L switches:SW_Push SW32
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW32
 U 1 1 5A17DD42
 P 7250 3875
 F 0 "SW32" H 7250 4160 50  0000 C CNN
@@ -783,7 +783,7 @@ F 3 "" H 7250 4075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW33
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW33
 U 1 1 5A17DD49
 P 7850 3875
 F 0 "SW33" H 7850 4160 50  0000 C CNN
@@ -794,7 +794,7 @@ F 3 "" H 7850 4075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW34
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW34
 U 1 1 5A17DD50
 P 8850 3875
 F 0 "SW34" H 8850 4160 50  0000 C CNN
@@ -805,7 +805,7 @@ F 3 "" H 8850 4075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW35
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW35
 U 1 1 5A17DD57
 P 9450 3875
 F 0 "SW35" H 9450 4160 50  0000 C CNN
@@ -816,7 +816,7 @@ F 3 "" H 9450 4075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW36
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW36
 U 1 1 5A17DD5E
 P 10450 3875
 F 0 "SW36" H 10450 4160 50  0000 C CNN
@@ -838,7 +838,7 @@ F 3 "" H 6750 4525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW37
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW37
 U 1 1 5A17DD6C
 P 6250 4525
 F 0 "SW37" H 6250 4810 50  0000 C CNN
@@ -893,7 +893,7 @@ Wire Wire Line
 Connection ~ 6750 4775
 Connection ~ 8350 4775
 $Comp
-L switches:SW_Push SW38
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW38
 U 1 1 5A17DD8D
 P 7250 4525
 F 0 "SW38" H 7250 4810 50  0000 C CNN
@@ -904,7 +904,7 @@ F 3 "" H 7250 4725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW39
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW39
 U 1 1 5A17DD94
 P 7850 4525
 F 0 "SW39" H 7850 4810 50  0000 C CNN
@@ -915,7 +915,7 @@ F 3 "" H 7850 4725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW40
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW40
 U 1 1 5A17DD9B
 P 8850 4525
 F 0 "SW40" H 8850 4810 50  0000 C CNN
@@ -926,7 +926,7 @@ F 3 "" H 8850 4725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW41
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW41
 U 1 1 5A17DDA2
 P 9450 4525
 F 0 "SW41" H 9450 4810 50  0000 C CNN
@@ -937,7 +937,7 @@ F 3 "" H 9450 4725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW42
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW42
 U 1 1 5A17DDA9
 P 10450 4525
 F 0 "SW42" H 10450 4810 50  0000 C CNN
@@ -959,7 +959,7 @@ F 3 "" H 6750 5175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW43
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW43
 U 1 1 5A17DDB7
 P 6250 5175
 F 0 "SW43" H 6250 5460 50  0000 C CNN
@@ -1014,7 +1014,7 @@ Wire Wire Line
 Connection ~ 6750 5425
 Connection ~ 8350 5425
 $Comp
-L switches:SW_Push SW44
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW44
 U 1 1 5A17DDD8
 P 7250 5175
 F 0 "SW44" H 7250 5460 50  0000 C CNN
@@ -1025,7 +1025,7 @@ F 3 "" H 7250 5375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW45
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW45
 U 1 1 5A17DDDF
 P 7850 5175
 F 0 "SW45" H 7850 5460 50  0000 C CNN
@@ -1036,7 +1036,7 @@ F 3 "" H 7850 5375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW46
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW46
 U 1 1 5A17DDE6
 P 8850 5175
 F 0 "SW46" H 8850 5460 50  0000 C CNN
@@ -1047,7 +1047,7 @@ F 3 "" H 8850 5375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW47
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW47
 U 1 1 5A17DDED
 P 9450 5175
 F 0 "SW47" H 9450 5460 50  0000 C CNN
@@ -1058,7 +1058,7 @@ F 3 "" H 9450 5375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW48
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW48
 U 1 1 5A17DDF4
 P 10450 5175
 F 0 "SW48" H 10450 5460 50  0000 C CNN
