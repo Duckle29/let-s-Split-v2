@@ -6,3 +6,5 @@ Test-jig
 *.gt*
 *.gm*
 *.drl
+*.step
+*.stp

@@ -175,7 +175,7 @@ L lets_split_panel-rescue:R_Small-RESCUE-lets_split_panel R3
 U 1 1 59E680B3
 P 3275 3375
 F 0 "R3" H 3305 3395 50  0000 L CNN
-F 1 "200" H 3305 3335 50  0000 L CNN
+F 1 "200R" H 3305 3335 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 3275 3375 50  0001 C CNN
 F 3 "" H 3275 3375 50  0000 C CNN
 	1    3275 3375
@@ -211,7 +211,7 @@ U 1 1 5A0DCE60
 P 2525 6175
 F 0 "Y1" V 2475 6300 50  0000 L CNN
 F 1 "Crystal" V 2550 6325 50  0000 L CNN
-F 2 "SeeedOPL-Crystal Oscillator-2016:X2-SMD-3.2X1.5X0.55MM" H 2525 6175 50  0001 C CNN
+F 2 "Crystals:Crystal_SMD_Abracon_ABM3-2pin_5.0x3.2mm" H 2525 6175 50  0001 C CNN
 F 3 "" H 2525 6175 50  0001 C CNN
 	1    2525 6175
 	0    -1   1    0   
@@ -254,7 +254,7 @@ L lets_split_panel-rescue:C_Small-RESCUE-lets_split_panel C2
 U 1 1 5A0E4445
 P 2350 5975
 F 0 "C2" V 2275 6075 50  0000 C CNN
-F 1 "8pF" V 2250 5875 50  0000 C CNN
+F 1 "18pF" V 2250 5875 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603" H 2350 5975 50  0001 C CNN
 F 3 "" H 2350 5975 50  0001 C CNN
 	1    2350 5975
@@ -265,7 +265,7 @@ L lets_split_panel-rescue:C_Small-RESCUE-lets_split_panel C3
 U 1 1 5A0E5B22
 P 2350 6375
 F 0 "C3" V 2525 6375 50  0000 C CNN
-F 1 "8pF" V 2450 6375 50  0000 C CNN
+F 1 "18pF" V 2450 6375 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603" H 2350 6375 50  0001 C CNN
 F 3 "" H 2350 6375 50  0001 C CNN
 	1    2350 6375
@@ -455,7 +455,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 1225 3500 1250
 Wire Wire Line
-	3400 1225 3500 1225
+	3400 1225 3450 1225
 Wire Wire Line
 	3400 1250 3400 1225
 Connection ~ 2500 4675
@@ -473,7 +473,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 6225 1450 6225
 Wire Wire Line
-	2075 5975 2075 6450
+	2075 5975 2075 6375
 Wire Wire Line
 	2450 7275 2600 7275
 Wire Wire Line
@@ -481,7 +481,7 @@ Wire Wire Line
 Wire Wire Line
 	2075 5975 2250 5975
 Wire Wire Line
-	1000 6175 1000 6300
+	1000 6175 1000 6225
 Wire Wire Line
 	1450 5575 1450 5525
 Wire Wire Line
@@ -504,18 +504,18 @@ Wire Wire Line
 Wire Wire Line
 	2500 4675 2600 4675
 Wire Wire Line
-	2500 4775 2500 4450
+	2500 4775 2500 4675
 Wire Wire Line
 	2200 4775 2200 4800
 Connection ~ 2200 5025
 Wire Wire Line
 	2200 5025 2200 5000
 Wire Wire Line
-	2450 6375 2600 6375
+	2450 6375 2525 6375
 Wire Wire Line
 	2525 6325 2525 6375
 Wire Wire Line
-	2450 5975 2600 5975
+	2450 5975 2525 5975
 Wire Wire Line
 	2525 6025 2525 5975
 Connection ~ 2325 5375
@@ -531,7 +531,7 @@ Wire Wire Line
 	3950 2775 4175 2775
 Connection ~ 2450 6975
 Wire Wire Line
-	2450 6875 2600 6875
+	2450 6875 2550 6875
 Connection ~ 2450 7075
 Wire Wire Line
 	2450 6975 2600 6975
@@ -566,15 +566,15 @@ Wire Wire Line
 Wire Wire Line
 	3400 2150 3400 2100
 Wire Wire Line
-	3075 2150 3825 2150
+	3075 2150 3400 2150
 Wire Wire Line
 	3500 2250 3500 2100
 Wire Wire Line
-	2950 2250 3950 2250
+	2950 2250 3500 2250
 Wire Wire Line
-	2325 4450 2325 5475
+	2325 4450 2325 4775
 Wire Wire Line
-	2200 4775 2600 4775
+	2200 4775 2325 4775
 Connection ~ 2450 7175
 Wire Wire Line
 	2450 7075 2600 7075
@@ -582,7 +582,7 @@ Connection ~ 2450 7275
 Wire Wire Line
 	2450 7175 2600 7175
 Wire Wire Line
-	2450 6825 2450 7375
+	2450 6825 2450 6875
 Wire Wire Line
 	4875 1375 5300 1375
 Text Label 4275 7275 0    60   ~ 0
@@ -690,7 +690,7 @@ Dd-
 Text Label 1400 5775 0    60   ~ 0
 Dd+
 $Comp
-L conn:Conn_01x01 J7
+L lets_split_panel-rescue:Conn_01x01-RESCUE-lets_split_panel J7
 U 1 1 5A14B17F
 P 3750 2775
 F 0 "J7" H 3670 2550 50  0000 C CNN
@@ -712,7 +712,7 @@ F 3 "" H 6650 2875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW1
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW1
 U 1 1 5A172F2E
 P 6150 2875
 F 0 "SW1" H 6150 3160 50  0000 C CNN
@@ -725,15 +725,15 @@ $EndComp
 Wire Wire Line
 	5950 2875 5900 2875
 Wire Wire Line
-	5900 2550 5900 4825
+	5900 2550 5900 2875
 Wire Wire Line
-	7400 2550 7400 4825
+	7400 2550 7400 2875
 Wire Wire Line
 	7400 2875 7350 2875
 Wire Wire Line
 	6650 3075 6650 3125
 Wire Wire Line
-	5800 3125 9850 3125
+	5800 3125 6650 3125
 $Comp
 L device:D_x2_KCom_AAK D2
 U 1 1 5A174C03
@@ -748,9 +748,9 @@ $EndComp
 Wire Wire Line
 	7550 2875 7500 2875
 Wire Wire Line
-	7500 2550 7500 4825
+	7500 2550 7500 2875
 Wire Wire Line
-	9000 2550 9000 4825
+	9000 2550 9000 2875
 Wire Wire Line
 	9000 2875 8950 2875
 Wire Wire Line
@@ -769,9 +769,9 @@ $EndComp
 Wire Wire Line
 	9150 2875 9100 2875
 Wire Wire Line
-	9100 2550 9100 4825
+	9100 2550 9100 2875
 Wire Wire Line
-	10600 2550 10600 4825
+	10600 2550 10600 2875
 Wire Wire Line
 	10600 2875 10550 2875
 Wire Wire Line
@@ -779,7 +779,7 @@ Wire Wire Line
 Connection ~ 6650 3125
 Connection ~ 8250 3125
 $Comp
-L switches:SW_Push SW2
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW2
 U 1 1 5A176382
 P 7150 2875
 F 0 "SW2" H 7150 3160 50  0000 C CNN
@@ -790,7 +790,7 @@ F 3 "" H 7150 3075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW3
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW3
 U 1 1 5A1763EE
 P 7750 2875
 F 0 "SW3" H 7750 3160 50  0000 C CNN
@@ -801,7 +801,7 @@ F 3 "" H 7750 3075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW4
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW4
 U 1 1 5A176446
 P 8750 2875
 F 0 "SW4" H 8750 3160 50  0000 C CNN
@@ -812,7 +812,7 @@ F 3 "" H 8750 3075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW5
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW5
 U 1 1 5A1764A4
 P 9350 2875
 F 0 "SW5" H 9350 3160 50  0000 C CNN
@@ -823,7 +823,7 @@ F 3 "" H 9350 3075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW6
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW6
 U 1 1 5A1764FE
 P 10350 2875
 F 0 "SW6" H 10350 3160 50  0000 C CNN
@@ -845,7 +845,7 @@ F 3 "" H 6650 3525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW7
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW7
 U 1 1 5A1768AA
 P 6150 3525
 F 0 "SW7" H 6150 3810 50  0000 C CNN
@@ -862,7 +862,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 3725 6650 3775
 Wire Wire Line
-	5800 3775 9850 3775
+	5800 3775 6650 3775
 $Comp
 L device:D_x2_KCom_AAK D5
 U 1 1 5A1768B9
@@ -900,7 +900,7 @@ Wire Wire Line
 Connection ~ 6650 3775
 Connection ~ 8250 3775
 $Comp
-L switches:SW_Push SW8
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW8
 U 1 1 5A1768D3
 P 7150 3525
 F 0 "SW8" H 7150 3810 50  0000 C CNN
@@ -911,7 +911,7 @@ F 3 "" H 7150 3725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW9
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW9
 U 1 1 5A1768DA
 P 7750 3525
 F 0 "SW9" H 7750 3810 50  0000 C CNN
@@ -922,7 +922,7 @@ F 3 "" H 7750 3725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW10
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW10
 U 1 1 5A1768E1
 P 8750 3525
 F 0 "SW10" H 8750 3810 50  0000 C CNN
@@ -933,7 +933,7 @@ F 3 "" H 8750 3725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW11
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW11
 U 1 1 5A1768E8
 P 9350 3525
 F 0 "SW11" H 9350 3810 50  0000 C CNN
@@ -944,7 +944,7 @@ F 3 "" H 9350 3725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW12
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW12
 U 1 1 5A1768EF
 P 10350 3525
 F 0 "SW12" H 10350 3810 50  0000 C CNN
@@ -966,7 +966,7 @@ F 3 "" H 6650 4175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW13
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW13
 U 1 1 5A1773CA
 P 6150 4175
 F 0 "SW13" H 6150 4460 50  0000 C CNN
@@ -983,7 +983,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 4375 6650 4425
 Wire Wire Line
-	5800 4425 9850 4425
+	5800 4425 6650 4425
 $Comp
 L device:D_x2_KCom_AAK D8
 U 1 1 5A1773D9
@@ -1021,7 +1021,7 @@ Wire Wire Line
 Connection ~ 6650 4425
 Connection ~ 8250 4425
 $Comp
-L switches:SW_Push SW14
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW14
 U 1 1 5A1773F3
 P 7150 4175
 F 0 "SW14" H 7150 4460 50  0000 C CNN
@@ -1032,7 +1032,7 @@ F 3 "" H 7150 4375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW15
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW15
 U 1 1 5A1773FA
 P 7750 4175
 F 0 "SW15" H 7750 4460 50  0000 C CNN
@@ -1043,7 +1043,7 @@ F 3 "" H 7750 4375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW16
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW16
 U 1 1 5A177401
 P 8750 4175
 F 0 "SW16" H 8750 4460 50  0000 C CNN
@@ -1054,7 +1054,7 @@ F 3 "" H 8750 4375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW17
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW17
 U 1 1 5A177408
 P 9350 4175
 F 0 "SW17" H 9350 4460 50  0000 C CNN
@@ -1065,7 +1065,7 @@ F 3 "" H 9350 4375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW18
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW18
 U 1 1 5A17740F
 P 10350 4175
 F 0 "SW18" H 10350 4460 50  0000 C CNN
@@ -1087,7 +1087,7 @@ F 3 "" H 6650 4825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW19
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW19
 U 1 1 5A177699
 P 6150 4825
 F 0 "SW19" H 6150 5110 50  0000 C CNN
@@ -1104,7 +1104,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 5025 6650 5075
 Wire Wire Line
-	5800 5075 9850 5075
+	5800 5075 6650 5075
 $Comp
 L device:D_x2_KCom_AAK D11
 U 1 1 5A1776A8
@@ -1142,7 +1142,7 @@ Wire Wire Line
 Connection ~ 6650 5075
 Connection ~ 8250 5075
 $Comp
-L switches:SW_Push SW20
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW20
 U 1 1 5A1776C2
 P 7150 4825
 F 0 "SW20" H 7150 5110 50  0000 C CNN
@@ -1153,7 +1153,7 @@ F 3 "" H 7150 5025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW21
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW21
 U 1 1 5A1776C9
 P 7750 4825
 F 0 "SW21" H 7750 5110 50  0000 C CNN
@@ -1164,7 +1164,7 @@ F 3 "" H 7750 5025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW22
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW22
 U 1 1 5A1776D0
 P 8750 4825
 F 0 "SW22" H 8750 5110 50  0000 C CNN
@@ -1175,7 +1175,7 @@ F 3 "" H 8750 5025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW23
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW23
 U 1 1 5A1776D7
 P 9350 4825
 F 0 "SW23" H 9350 5110 50  0000 C CNN
@@ -1186,7 +1186,7 @@ F 3 "" H 9350 5025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW24
+L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW24
 U 1 1 5A1776DE
 P 10350 4825
 F 0 "SW24" H 10350 5110 50  0000 C CNN
@@ -1215,5 +1215,99 @@ Connection ~ 10600 4175
 Connection ~ 10600 3525
 Connection ~ 10600 2875
 Wire Wire Line
-	1900 5025 2600 5025
+	1900 5025 2200 5025
+Wire Wire Line
+	3450 1225 3500 1225
+Wire Wire Line
+	2500 4675 2500 4575
+Wire Wire Line
+	2500 4775 2600 4775
+Wire Wire Line
+	2550 6875 2600 6875
+Wire Wire Line
+	1000 6225 1000 6300
+Wire Wire Line
+	2075 6375 2075 6450
+Wire Wire Line
+	2525 5975 2600 5975
+Wire Wire Line
+	2525 6375 2600 6375
+Wire Wire Line
+	2450 6875 2450 6975
+Wire Wire Line
+	2500 4575 2500 4450
+Wire Wire Line
+	2200 5025 2600 5025
+Wire Wire Line
+	2325 5375 2325 5475
+Wire Wire Line
+	2325 4875 2325 5375
+Wire Wire Line
+	2325 4775 2325 4875
+Wire Wire Line
+	2325 4775 2500 4775
+Wire Wire Line
+	2450 6975 2450 7075
+Wire Wire Line
+	2450 7075 2450 7175
+Wire Wire Line
+	3500 2250 3950 2250
+Wire Wire Line
+	3400 2150 3825 2150
+Wire Wire Line
+	2450 7175 2450 7275
+Wire Wire Line
+	2450 7275 2450 7375
+Wire Wire Line
+	6650 3125 8250 3125
+Wire Wire Line
+	8250 3125 9850 3125
+Wire Wire Line
+	6650 3775 8250 3775
+Wire Wire Line
+	8250 3775 9850 3775
+Wire Wire Line
+	6650 4425 8250 4425
+Wire Wire Line
+	8250 4425 9850 4425
+Wire Wire Line
+	6650 5075 8250 5075
+Wire Wire Line
+	8250 5075 9850 5075
+Wire Wire Line
+	5900 4175 5900 4825
+Wire Wire Line
+	5900 3525 5900 4175
+Wire Wire Line
+	5900 2875 5900 3525
+Wire Wire Line
+	7400 2875 7400 3525
+Wire Wire Line
+	7500 2875 7500 3525
+Wire Wire Line
+	7400 3525 7400 4175
+Wire Wire Line
+	7500 3525 7500 4175
+Wire Wire Line
+	7400 4175 7400 4825
+Wire Wire Line
+	7500 4175 7500 4825
+Wire Wire Line
+	9000 2875 9000 3525
+Wire Wire Line
+	9000 3525 9000 4175
+Wire Wire Line
+	9000 4175 9000 4825
+Wire Wire Line
+	9100 4175 9100 4825
+Wire Wire Line
+	9100 3525 9100 4175
+Wire Wire Line
+	9100 2875 9100 3525
+Wire Wire Line
+	10600 4175 10600 4825
+Wire Wire Line
+	10600 3525 10600 4175
+Wire Wire Line
+	10600 2875 10600 3525
 $EndSCHEMATC
