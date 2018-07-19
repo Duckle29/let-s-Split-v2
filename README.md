@@ -1,4 +1,4 @@
-A version of the socket branch, but with a mini USB added. Called V3 for now.
+# This repo is now an archive. Further boards and development can be found here: https://github.com/Duckle29/Vitamins-included
 
 ![Image of front side of panel](lets_split_panel/images/top.png)
 ![Image of bottom side of panel](lets_split_panel/images/bottom.png)
